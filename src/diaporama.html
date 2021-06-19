@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lightbox-modal</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fichiers CSS -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style/diaporama.css">
+</head>
+<body>
+    <main id= mediaList>       
+        <!-- Conteneur principal de tout le diaporama et video-->
+        <div class="diapo">
+            <!-- Conteneur des "diapos" -->
+            <div class="elements"><!--remplacer par Lightbox-content id ="243"-->
+               <!-- Première diapo -->
+                <div class="element active">
+                    <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Rainbow.jpg" alt="Image 1">
+                    <div class="caption">
+                       <p class= "imgtext (Animals-Rainbow.jpg)" alt= "titre de l'image"></p>
+                    </div>
+                </div>
+ 
+                <!-- Deuxième diapo -->
+                <div class="element">
+                    <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Event_BenevidesWedding.jpg" alt="Image 2">
+                    <div class="caption">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+                <!-- Troisième diapo -->
+                <div class="element">
+                    <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Event_PintoWedding.jpg" alt="Image 3">
+                    <div class="caption">
+                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+
+                <!-- Quatrième diapo -->
+                <div class="element">
+                    <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Event_SeasideWedding.jpg" alt="Image 4">
+                    <div class="caption">
+                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+
+               <!-- Cinquième diapo -->
+                <div class="element">
+                   <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Portrait_Background.jpg" alt="Image 5">
+                  <div class="caption">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                  </div>
+                </div>
+
+                <!-- Sixième diapo -->
+                <div class="element">
+                   <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Portrait_Nora.jpg" alt="Image 6">
+                  <div class="caption">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                  </div>
+                </div>
+
+                <!-- Septième diapo -->
+                <div class="element">
+                    <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Portrait_Wednesday.jpg" alt="Image 7">
+                  <div class="caption">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                  </div>
+                </div>
+
+                <!-- Huitième diapo -->
+                <div class="element">
+                     <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Travel_HillsideColor.jpg" alt="Image 8">
+                  <div class="caption">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                  </div>
+                </div>
+
+                <!-- Neuvième diapo -->
+                <div class="element">
+                    <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Travel_Lonesome.jpg" alt="Image 9">
+                  <div class="caption">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                  </div>
+                </div>
+              
+                <!-- Video -->
+                <div class ="video"><!--conteneur des videos-->
+                  <video controls poster = image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.jpg  aria-label="video du photographe" width="650px">
+                    <source src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.mp4" alt= "Video_du photographe">
+                    <source src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.webn">
+                    <source src ="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.ogv"">
+                    
+                    <div class="caption">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                  </video>
+                </div>
+            
+            </div>   
+            <!-- Flèches de navigation -->
+            <i id="nav-gauche" class="las la-chevron-left"></i>
+            <i id="nav-droite" class="las la-chevron-right"></i>
+        </div>
+    </main>
+
+    <script src="script/diaporama.js"></script>
+    <script src="script/images.js"></script>
+    <script src="script/detail.js"></script>
+</body>
+</html>

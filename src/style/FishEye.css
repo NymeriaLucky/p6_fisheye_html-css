@@ -1,0 +1,1569 @@
+/* Index */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* .logo */
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 116px;
+top: 33px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 52.14%;
+top: 0%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 87.64%;
+top: 1.82%;
+bottom: 21.61%;
+
+background: #911C1C;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.14%;
+right: 82.18%;
+top: 0%;
+bottom: 21.61%;
+
+background: #911C1C;
+
+
+/* Vector */
+
+position: absolute;
+left: 19.86%;
+right: 67.72%;
+top: 21.88%;
+bottom: 20.83%;
+
+background: #911C1C;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.78%;
+right: 52.14%;
+top: 1.82%;
+bottom: 21.61%;
+
+background: #911C1C;
+
+
+/* Group */
+
+position: absolute;
+left: 71.53%;
+right: 0%;
+top: 21.61%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 71.53%;
+right: 14.33%;
+top: 22.14%;
+bottom: 0%;
+
+background: #911C1C;
+
+
+/* Vector */
+
+position: absolute;
+left: 86.13%;
+right: 0%;
+top: 21.61%;
+bottom: 21.32%;
+
+background: #911C1C;
+
+
+/* Vector */
+
+position: absolute;
+left: 50.16%;
+right: 30.31%;
+top: 8.07%;
+bottom: 22.14%;
+
+background: #911C1C;
+
+
+/* Nos photographes */
+
+position: absolute;
+width: 306px;
+height: 47px;
+left: 1033px;
+top: 35px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+color: #911C1C;
+
+
+
+/* .thumb-photographer */
+
+position: absolute;
+width: 200px;
+height: 310px;
+left: 116px;
+top: 193px;
+
+
+/* Mimi Keel */
+
+position: absolute;
+left: 10.5%;
+right: 10%;
+top: 70.97%;
+bottom: 13.87%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+
+color: #D3573C;
+
+
+
+/* London, UK */
+
+position: absolute;
+left: 33.5%;
+right: 33%;
+top: 86.13%;
+bottom: 8.39%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #901C1C;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 35.48%;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+
+/* img */
+
+position: absolute;
+left: -81%;
+right: -82%;
+top: -25%;
+bottom: -54%;
+
+background: url(Portrait-Nora.jpg);
+
+
+/* Voir le beau dans le quotidien */
+
+position: absolute;
+width: 137px;
+height: 13px;
+left: 32px;
+top: 287px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* 400€/jour */
+
+position: absolute;
+width: 45px;
+height: 12px;
+left: 78px;
+top: 303px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #757575;
+
+
+
+/* .tag */
+
+position: absolute;
+left: -39.5%;
+right: -38.5%;
+top: 104.19%;
+bottom: -9.35%;
+
+
+
+/* #portrait #events #travel #animals */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 50%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #911C1C;
+
+
+
+/* .thumb-photographer */
+
+position: absolute;
+width: 200px;
+height: 310px;
+left: 116px;
+top: 586px;
+
+
+
+/* Nabeel Bradford */
+
+position: absolute;
+left: -17.5%;
+right: -17.5%;
+top: 70.97%;
+bottom: 13.87%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+
+color: #D3573C;
+
+/* Mexico City, Mexico */
+
+position: absolute;
+left: 20.5%;
+right: 20%;
+top: 86.13%;
+bottom: 8.39%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #901C1C;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 35.48%;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+
+/* img */
+
+position: absolute;
+left: -81%;
+right: -82%;
+top: -25%;
+bottom: -54%;
+
+background: url(Travel - Outdoor Baths.jpg);
+
+
+/* Je vais toujours de l’avant */
+
+position: absolute;
+width: 119px;
+height: 13px;
+left: 41px;
+top: 287px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* 350€/jour */
+
+position: absolute;
+width: 44px;
+height: 12px;
+left: 78px;
+top: 303px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #757575;
+
+
+
+/* .tag */
+
+position: absolute;
+left: -39.5%;
+right: -38.5%;
+top: 104.19%;
+bottom: -9.35%;
+
+
+
+/* #travel #portraits */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 50%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #911C1C;
+
+
+
+/* .thumb-photographer */
+
+position: absolute;
+width: 200px;
+height: 310px;
+left: 636px;
+top: 586px;
+
+
+
+/* Rhode Dubois */
+
+position: absolute;
+left: -8%;
+right: -8.5%;
+top: 70.97%;
+bottom: 13.87%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+
+color: #D3573C;
+
+
+
+/* Barcelona, Spain */
+
+position: absolute;
+left: 25.5%;
+right: 25%;
+top: 86.13%;
+bottom: 8.39%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #901C1C;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 35.48%;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+
+/* img */
+
+position: absolute;
+left: -81%;
+right: -82%;
+top: -25%;
+bottom: -54%;
+
+background: url(Fashion - Melody Red on Stripes.jpg);
+
+
+/* Créatrice de souvenis */
+
+position: absolute;
+width: 101px;
+height: 13px;
+left: 50px;
+top: 287px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* 375€/jour */
+
+position: absolute;
+width: 42px;
+height: 12px;
+left: 79px;
+top: 303px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #757575;
+
+
+
+/* .tag */
+
+position: absolute;
+left: -39.5%;
+right: -38.5%;
+top: 104.19%;
+bottom: -9.35%;
+
+
+
+/* #sport #fashion #events #animals */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 50%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #911C1C;
+
+
+
+/* .thumb-photographer */
+
+position: absolute;
+width: 200px;
+height: 310px;
+left: 1150px;
+top: 586px;
+
+
+
+/* Marcel Nikolic */
+
+position: absolute;
+left: -7.5%;
+right: -7.5%;
+top: 70.97%;
+bottom: 13.87%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+
+color: #D3573C;
+
+
+
+/* Berlin, Germany */
+
+position: absolute;
+left: 26.5%;
+right: 26%;
+top: 86.13%;
+bottom: 8.39%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #901C1C;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 35.48%;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+
+/* img */
+
+position: absolute;
+left: -81%;
+right: -82%;
+top: -25%;
+bottom: -54%;
+
+background: url(Travel-Tower.jpg);
+
+
+/* Toujours à la recherche de LA photo */
+
+position: absolute;
+width: 167px;
+height: 13px;
+left: 17px;
+top: 287px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* 300€/jour */
+
+position: absolute;
+width: 45px;
+height: 12px;
+left: 78px;
+top: 303px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #757575;
+
+
+
+/* .tag */
+
+position: absolute;
+left: -39.5%;
+right: -38.5%;
+top: 104.19%;
+bottom: -9.35%;
+
+/* #travel #architecture */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 50%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #911C1C;
+
+
+
+/* .thumb-photographer */
+
+position: absolute;
+width: 200px;
+height: 310px;
+left: 633px;
+top: 196px;
+
+
+
+/* Ellie-Rose Wilkens */
+
+position: absolute;
+left: -25%;
+right: -25.5%;
+top: 70.97%;
+bottom: 13.87%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+
+color: #D3573C;
+
+
+
+/* Paris, France */
+
+position: absolute;
+left: 31%;
+right: 31%;
+top: 86.13%;
+bottom: 8.39%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #901C1C;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 35.48%;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+
+/* img */
+
+position: absolute;
+left: -81%;
+right: -82%;
+top: -25%;
+bottom: -54%;
+
+background: url(Architecture - Horseshoe.jpg);
+
+
+/* Travaille sur des compositions complexes */
+
+position: absolute;
+width: 192px;
+height: 13px;
+left: 4px;
+top: 287px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* 250€/jour */
+
+position: absolute;
+width: 44px;
+height: 12px;
+left: 78px;
+top: 303px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #757575;
+
+
+
+/* .tag */
+
+position: absolute;
+left: -39.5%;
+right: -38.5%;
+top: 104.19%;
+bottom: -9.35%;
+
+
+
+/* #sports #architecture */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 50%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #911C1C;
+
+
+
+/* .thumb-photographer */
+
+position: absolute;
+width: 200px;
+height: 310px;
+left: 1150px;
+top: 196px;
+
+
+
+/* Tracy Galindo */
+
+position: absolute;
+left: -7%;
+right: -7.5%;
+top: 70.97%;
+bottom: 13.87%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+
+color: #D3573C;
+
+
+
+/* Montreal, Canada */
+
+position: absolute;
+left: 24%;
+right: 23.5%;
+top: 86.13%;
+bottom: 8.39%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #901C1C;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 35.48%;
+
+
+
+/* .user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+
+/* img */
+
+position: absolute;
+left: -81%;
+right: -82%;
+top: -25%;
+bottom: -54%;
+
+background: url(Fashion - Urban Jungle.jpg);
+
+
+/* Photographe freelance */
+
+position: absolute;
+width: 105px;
+height: 13px;
+left: 48px;
+top: 287px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* 500€/jour */
+
+position: absolute;
+width: 45px;
+height: 12px;
+left: 78px;
+top: 303px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+
+color: #757575;
+
+
+
+/* .tag */
+
+position: absolute;
+left: -39.5%;
+right: -38.5%;
+top: 104.19%;
+bottom: -9.35%;
+
+
+
+/* #art #fashion #events */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 50%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #911C1C;
+
+
+
+/* #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events */
+
+position: absolute;
+left: 28.4%;
+right: 34.72%;
+top: 5.08%;
+bottom: 93.36%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+text-align: center;
+
+color: #911C1C;
+
+
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 68px;
+height: 22px;
+left: 402px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 248 */
+
+position: absolute;
+width: 68px;
+height: 22px;
+left: 521px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 249 */
+
+position: absolute;
+width: 92px;
+height: 22px;
+left: 594px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 250 */
+
+position: absolute;
+width: 58px;
+height: 22px;
+left: 691px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 251 */
+
+position: absolute;
+width: 55px;
+height: 22px;
+left: 754px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 252 */
+
+position: absolute;
+width: 65px;
+height: 22px;
+left: 814px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 253 */
+
+position: absolute;
+width: 63px;
+height: 22px;
+left: 884px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 247 */
+
+position: absolute;
+width: 41px;
+height: 22px;
+left: 475px;
+top: 49px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 254 */
+
+position: absolute;
+width: 63px;
+height: 21px;
+left: 90px;
+top: 514px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 267 */
+
+position: absolute;
+width: 52px;
+height: 21px;
+left: 610px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 255 */
+
+position: absolute;
+width: 58px;
+height: 21px;
+left: 158px;
+top: 514px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 268 */
+
+position: absolute;
+width: 61px;
+height: 21px;
+left: 667px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 256 */
+
+position: absolute;
+width: 53px;
+height: 21px;
+left: 221px;
+top: 514px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 269 */
+
+position: absolute;
+width: 57px;
+height: 21px;
+left: 733px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 258 */
+
+position: absolute;
+width: 53px;
+height: 21px;
+left: 152px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 257 */
+
+position: absolute;
+width: 63px;
+height: 21px;
+left: 279px;
+top: 514px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 270 */
+
+position: absolute;
+width: 63px;
+height: 21px;
+left: 795px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 259 */
+
+position: absolute;
+width: 68px;
+height: 21px;
+left: 210px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 260 */
+
+position: absolute;
+width: 89px;
+height: 21px;
+left: 718px;
+top: 517px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 261 */
+
+position: absolute;
+width: 59px;
+height: 21px;
+left: 654px;
+top: 517px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 262 */
+
+position: absolute;
+width: 40px;
+height: 21px;
+left: 1164px;
+top: 517px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 263 */
+
+position: absolute;
+width: 62px;
+height: 21px;
+left: 1209px;
+top: 517px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 264 */
+
+position: absolute;
+width: 56px;
+height: 21px;
+left: 1276px;
+top: 517px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 265 */
+
+position: absolute;
+width: 89px;
+height: 21px;
+left: 1233px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Rectangle 266 */
+
+position: absolute;
+width: 54px;
+height: 21px;
+left: 1174px;
+top: 907px;
+
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+
+
+/* Group 30 */
+
+position: absolute;
+width: 1440px;
+height: 1465px;
+left: -1px;
+top: -441px;
+
+
+
+/* Rectangle 33 */
+
+position: absolute;
+width: 1440px;
+height: 1465px;
+left: -1px;
+top: -441px;
+
+background: #919090;
+background-blend-mode: multiply;
+
+
+/* Group 27 */
+
+position: absolute;
+width: 166px;
+height: 70px;
+left: 999px;
+top: 16px;
+
+
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 115px;
+height: 60px;
+left: 999px;
+top: 16px;
+
+background: #95FFF9;
+
+
+/* main */
+
+position: absolute;
+width: 142px;
+height: 56px;
+left: 1023px;
+top: 30px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rectangle 34 */
+
+position: absolute;
+width: 968px;
+height: 157px;
+left: 7px;
+top: 6px;
+
+border: 5px solid #95FFF9;
+box-sizing: border-box;
+
+
+/* Group 26 */
+
+position: absolute;
+width: 148px;
+height: 83px;
+left: 16px;
+top: 16px;
+
+
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 148px;
+height: 83px;
+left: 16px;
+top: 16px;
+
+background: #95FFF9;
+
+
+/* header/ banner */
+
+position: absolute;
+width: 118px;
+height: 56px;
+left: 40px;
+top: 30px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Group 29 */
+
+position: absolute;
+width: 526px;
+height: 70px;
+left: 365px;
+top: 49px;
+
+
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 526px;
+height: 70px;
+left: 365px;
+top: 49px;
+
+background: #95FFF9;
+
+
+/* navigation (aria-label=”photographer categories”) */
+
+position: absolute;
+width: 512.88px;
+height: 70px;
+left: 378.12px;
+top: 49px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Vector 1 */
+
+position: absolute;
+width: 1413.5px;
+height: 1003.5px;
+left: 11px;
+top: 7px;
+
+border: 5px solid #95FFF9;
+
+
+/* Rectangle 37 */
+
+position: absolute;
+width: 612px;
+height: 103px;
+left: 352px;
+top: 33px;
+
+border: 5px solid #95FFF9;
+box-sizing: border-box;

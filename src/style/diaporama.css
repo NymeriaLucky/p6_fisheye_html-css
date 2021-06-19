@@ -1,0 +1,99 @@
+
+
+body{
+    margin: 0;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+}
+
+.diapo {/*thumb-image*/
+    position: static;
+    display: flex;
+    position: relative;
+    overflow: hidden;   
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    overflow:auto ;
+    zoom:normal;
+    height: 900px;
+    width: 1050px;    
+}
+
+#nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: yellow;
+    font-size: 3em;
+}
+
+#nav-droite{
+    right: 20px;
+}
+
+#nav-gauche{
+    left: 20px;
+}
+
+.elements{
+    display: flex;
+    transition: 1s linear;
+}
+
+.element{
+    flex: 1 0 100%;
+    position: relative;
+}
+
+.element > img{
+    width: 100%;
+}
+
+.caption {
+    width: 600px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+    padding: 30px;
+    flex-direction: row;  
+}
+
+p {
+    height: 31px;
+   width: 292px;
+    left: 195px;
+    top: 974px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: left;
+    color:#901C1C;
+    position: absolute;
+left: 13.54%;
+right: 66.18%;
+top: 95.12%;
+bottom: 1.86%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+
+}
+ 
+/*reste à adapter iPhone 11 pro/X3*/

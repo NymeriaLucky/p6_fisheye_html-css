@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Component</title><!--composants-->
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/index.scss">
+    <script src="https://kit.fontawesome.com/9bc256f126.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <!-- sur la page d'accueil j'affiche l'ensemble des photographes et je vais mettre un lien vers la page 
+        de détail de chacun avec detail.js.Dans ce lien : passer un paramètre d'url avec l'id de chacun --> 
+</head>
+<body>
+<header>
+      <input id="form-textarea">
+        <h3>Prénom</h3>  
+</input>
+   <aside>
+   <a class="tag" href= "tag-name" id="tag-name"><span>#tag-name"></span></a>   
+   <a class="likes" id="likes-number">12</a>
+   <span><i class="fas fa-heart content"aria-hidden="true"></i></span>
+ 
+
+  <buttons>
+    <div id="dropdown"> <!-- Liste déroulante pour le tri parmi 3 critères -->
+      Popularité 
+    </div>
+    <div id="dropdown"href= "liste déroulante/listeD.html"> <!-- Liste déroulante pour le tri parmi 3 critères -->
+        Popularité
+        <hr>
+        Date
+        <hr>
+        Titre
+    </div>
+    <div id="button"> <!-- engagez-moi -->
+        Engagez-moi
+    </div>
+    <div id="button"> <!-- engagez-moi -->
+        Engagez-moi
+    </div>
+    </buttons>
+
+  </aside>
+</header>
+    <br/>
+  <a href = "/index.html" id="logo" aria-label="Lien vers page d'accueil de FishEye">
+            <img src="image/logo/fisheye-logo.png" id="logo" alt="logo de FishEye"/>
+  </a>
+
+  <br>
+  <canvas>
+  <img src="src/image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/KoldBarkley.jpg" alt="Kold Barkley">
+  </canvas>
+  
+  <h1>Kold Barkley</h1>
+  <h4>Auckland, new Zealand</h4>
+  <blockquote>Photographe et réalisateur<3</blockquote>
+  <a class="tag" href= "tag-portrait" id="portrait"><span>#portraits</span></a> 
+    <canvas id="photo">
+    </canvas>
+    
+    <article>
+      <section><!--portrait-->
+           <img src="src/image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/KoldBarkley.jpg" alt="Kold Barkley">
+         <h2>Kolb Barkley</h2>
+      </section>
+          <h4>Auckland, new Zealand</h4>
+        <blockquote>Photographe et réalisateur<3</blockquote>
+
+        <a class="tag" href= "tag-portrait" id="portrait"><span>#portraits</span></a> 
+   </article><!--user-->
+    <span class="prix">400€/jour</span><br>
+    <a class="tag" href= "tag-name" id="tag-name"><span>#tag-name"></span></a> 
+   
+    <div class ="photograph-header" id = "photographer-profile">
+      <h1>Kolb Barkley<button>Contactez-moi</button></h1>
+        <h4>Auckland, New Zealand</h4>
+         <blockquote>Photographe et réalisateur <3</blockquote>
+           <a class="tag" href= "tag-portrait" id="portrait"><span>#portraits</span></a> 
+            <!--rectangle 5
+                {
+                  "id": 342550,
+                  "photographerId": 82,
+                  "image": "Fashion_Yellow_Beach.jpg",
+                  "tags": ["fashion"],
+                  "likes": 62,
+                  "date": "2011-12-08",
+                  "price": 55
+                },
+            -->
+      </div> 
+</body>    
+</html>

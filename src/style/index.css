@@ -1,0 +1,499 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {/* Index */
+  display:flex;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #FFFFFF;
+  font-family: dm-sans,ui-sans-serif,verdana,system-ui;
+  line-height: 1.5;
+  tab-size: 4;
+}
+
+body{/* Vector 1*/ 
+display:flex;
+position: absolute;
+width: 1413.5px;
+height: 1003.5px;
+left: 11px;
+top: 5px;
+}
+/* Rectangle 34 header*/
+header {
+  display: inline-block;
+  position: absolute;
+  width: 968px;
+  height: 157px;
+  left: 7px;
+  top: 3px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+  margin: 0;
+}
+
+p {
+text-align: center;
+flex-wrap: wrap;
+}
+/* Nos photographes */
+h1 {
+  --tw-text-opacity: 1;
+  color: rgba(144,28,28,var(--tw-text-opacity));
+  width: 306px;
+  position: absolute;
+  font-family: DM Sans;
+  left: 1140px;
+  top: 8px;
+  bottom: 0%;
+  flex-grow: 1;
+  order: 2;
+  display: block;
+  font-weight: normal;
+  writing-mode: horizontal-tb;
+  font-size: 36px;
+  line-height: 47px;
+  font-size:1.2em;
+  align-content: right;
+  margin-top: 27px;  
+}
+
+main{
+flex-direction: column;
+margin-top: 8%;
+height: 1003.5px;
+width: 1413.5px;
+left: 11px;
+top: 7px;
+display: flex;
+justify-content: stretch;
+margin-bottom: 30px;
+}
+
+ul{
+  display: flex;
+  margin:0;
+  padding:0;
+  align-items: center;
+  list-style: none; 
+  margin-left: 405px; 
+  margin-top: -60px;
+  align-items:stretch;   
+}
+section{ /*rectangle 243*zone focus*/
+  height: 277px;
+  width: 265px;
+  left: 72px;
+  top: 192px;
+  box-sizing: content-box;
+  object-position: 50% 50%;
+
+}
+section img{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap:wrap;
+    zoom: normal;
+    position: static; 
+    height: 30rem; 
+    width: 72%;
+    height: 72%; 
+    object-fit: cover;
+    object-position:top center;      
+}
+
+section h2{
+flex-wrap: nowrap;
+flex-direction: row;
+align-items: center baseline;  
+height: 47px;
+width: 100%;
+left: 21px;
+top: 220px;
+text-align: center;
+color:#911C1C;
+font-size: 2.25rem;
+line-height: 2.5rem;
+--tw-text-opacity: 1;
+color: rgba(211,87,60,var(--tw-text-opacity));
+
+  }
+ 
+.photographerList{
+  padding: 15px;
+  margin: 0 15px 0 0;
+  border-radius: 15px;
+  width: 100%;
+  order: 1;
+  flex-grow: 1;
+} 
+
+.List1, .List2{
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+}   
+/*button*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #DB8876;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.tag {/*.photographer_cathegories #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events buttons*/
+    margin-right:.25rem;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgba(209,213,219,var(--tw-border-opacity));
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    --tw-text-opacity: 1;
+    color: rgba(144,28,28,var(--tw-text-opacity));
+    transition-duration: .2s;
+    color: #911C1C;
+  }
+  .tagsbox{ /*tags à séparer!*/
+  justify-content: space-between;
+  --tw-border-opacity: 1;
+  border-color: rgba(209,213,219,var(--tw-border-opacity));
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: .875rem;
+  align-items: stretch;
+  font-weight: 500;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgba(144,28,28,var(--tw-text-opacity));
+  transition-duration: .2s;
+  color: #911C1C;
+  text-align: center;
+}
+
+
+.scroll{    
+    margin-left: 50%;
+    position: absolute; 
+    background: #DB8876;
+    border-radius: 5px;
+    touch-action: pan-y;   /*revoir*/
+    opacity: 1;
+    height: 30px;
+width: 182px;
+left: -6px;
+top: 0px;
+border-radius: 5px;
+text-align: center;
+padding-top: 6px;
+color:solid black;
+opacity:0.33;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+ 
+audio, canvas, embed, iframe, img, object, svg, video {
+  display: block;
+  vertical-align: middle;
+}
+
+main{
+box-sizing: border-box;
+}
+/* Mimi Keel */
+#MimiKeel{
+position: absolute;
+left: 10.5%;
+right: 10%;
+top: 70.97%;
+bottom: 13.87%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+color: #D3573C;
+}
+/* London, UK localisation 1 et 2*/
+p {
+font-family: DM Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+letter-spacing: 0em;
+flex-wrap: nowrap;  
+color: #D3573C;
+}
+
+blockquote {/* Voir le beau dans le quotidien */
+display: flex;
+flex-wrap: nowrap;
+width: 100%;
+height: auto;
+text-align: center;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+box-sizing: border-box;/* identical to box height */
+color: #000000;
+justify-content: space-around;
+padding: 5px;
+}
+/* prix€/jour */
+.prix {
+display: flex;
+flex-wrap: nowrap;
+position: relative;
+width: 100%;
+height: auto;
+position: relative;
+height: auto;
+text-align: center;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+color: #757575;
+justify-content: space-around;
+}
+/* Rectangle 245 tagboxs individuels de la carte*
+tagList{
+position: absolute;
+width: 263px;
+height: 30px;
+left: 72px;
+top: 518px;
+border: 2px solid #95FFF9;
+box-sizing: border-box;
+}
+PhotographerTagsBox{ /* Rectangle 256 tags individuel de la carte
+position: absolute;
+width: 53px;
+height: 21px;
+left: 205px;
+top: 523px;
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 11px;
+}
+*/
+h5{
+color: #911C1C;
+}
+/* Mimi Keel */
+#MimiKeel{
+position: absolute;
+left: 10.5%;
+right: 10%;
+top: 70.97%;
+bottom: 13.87%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+color: #D3573C;
+}
+#Ellie-RoseWilkens{
+position: absolute;
+left: -25%;
+right: -25.5%;
+top: 70.97%;
+bottom: 13.87%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+color: #D3573C;
+}
+/* Tracy Galindo */
+#TracyGalindo{
+position: absolute;
+left: -7%;
+right: -7.5%;
+top: 70.97%;
+bottom: 13.87%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+color: #D3573C;
+}
+#NabeelBradford{
+position: absolute;
+left: -17.5%;
+right: -17.5%;
+top: 70.97%;
+bottom: 13.87%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+color: #D3573C;
+}
+/* Rhode Dubois */
+#RhodeDubois{
+position: absolute;
+left: -8%;
+right: -8.5%;
+top: 70.97%;
+bottom: 13.87%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+color: #D3573C;
+}
+/* Marcel Nikolic */
+#MarcelNikolic{
+position: absolute;
+left: -7.5%;
+right: -7.5%;
+top: 70.97%;
+bottom: 13.87%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+text-align: center;
+color: #D3573C;
+}
+
+/* ****************************** smartphone, tablet and screen until 1024px ****************************** */
+@media all and (max-width: 1024px) {
+  body{
+    overflow-x:hidden;
+  }
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+  
+  .heberg {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .heberg .hebergement_list {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-top: 20px;
+    order: 2;
+  }
+  
+}
+/* ****************************** smartphone only ****************************** */
+@media (max-width: 766px) {
+/* .logo */
+#logo{
+height: 37.5px;
+width: 150px;
+left: 20px;
+top: 40px;
+justify-content: flex-start;
+position: absolute;
+}    
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+#nav-bar{
+  height: 49px;
+  width: 553px;
+ text-align: center;
+ align-content: center;   
+}
+#tags-nav{ /* Rectangle 246 photographerstagBox*/
+  height: 16px;
+  width: 431px;
+  text-align: center;
+  display: flex;
+  box-sizing: content-box; 
+  margin:4px;  
+} 
+.photographer-profile-{
+  margin-top: 120px;
+  height: 358px;
+  width: 526px;
+  left: -162px;
+  top: -50px;
+  align-items: center;
+  flex-basis: auto;
+  height: 300px;
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 1%;
+    }
+  
+}

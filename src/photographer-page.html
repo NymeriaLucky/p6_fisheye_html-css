@@ -1,0 +1,95 @@
+<!--ouverture de la modal formulaire dans la page des photographes.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>photographer-page</title>
+ <link rel="stylesheet" href="style/component.css">
+ <link rel="stylesheet" href="style/photographer-page.css">
+ <link rel="stylesheet" href="liste déroulante/listeD.css">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+ </head>
+ <body>
+   <user-page id = "">
+    <header id="header" role="banner" alt= photograph-header>
+        <div>
+        <a href = "../index.html" id="logo" aria-label="lien vers page d'accueil de FishEye">
+          <h1><img src="image/logo/fisheye-logo.png" id="logo" alt="logo de FishEye"/></h1>
+        </a>
+        </div>
+
+        <div id="list"><!--all photographer-->
+          <article>
+            <div class ="photograph-header" id = "photographer-profile">
+                <a href="component.html?id="></a><!--exemple lien page de détail de chaque photographe dans la page Photographer.js ? ou vont les infos récupérés ?-->
+            </div>
+          </article>
+        </div>
+      </header>      
+    <container>
+      
+         <button class = "input">Trier par</button>
+        <div class="dropbtn">
+         <div class="dropdown">
+            <div class=".dropdown-content"><span>Popularité</span>
+                <div class="arrow"></div>
+            </div>
+            <div class=".dropdown-content ">
+                <a class="dropdown-option selected" data-value="popularité">Popularité</a>
+                <a class="dropdown-option" data-value="date">Date</a>
+                <a class="dropdown-option" data-value="titre">Titre</a>
+            </div>
+          </div>
+    <div class = "diaporama" id ="" href = diaporama.html>
+      <a href="diaporama.html?id="></a><!--exemple lien page de détail de chaque photographe dans la page Photographer.js ? ou vont les infos récupérés ?-->
+   
+      <div>""likes</div>
+      <div>""title</div>
+    </div>
+  </container>
+  <button><price>""€/jour</price></button>  
+</user-page>
+
+<main><!--form-modal-->
+        
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Contactez-moi</button>
+  
+  <div id="id01" class="modal">
+    
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+       <h1>Contactez-moi<br>
+         Mimi keel</h1>
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Prénom</b></label>
+        <input type="text" name="Prénom" required>
+  
+        <label for="uname"><b>Nom</b></label>
+        <input type="text" name="Nom" required>
+  
+        <label for="email"><b>Email</b></label>
+        <input type="text" name="Email" required>
+          
+        <label for="psw"><b>Message</b></label>
+        <input type="text" name="Message" id="Message" required>
+        
+      </div>
+  
+      <div class="container">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Envoyer</button>
+      </div>
+    </form>
+  </div>
+  </main>
+  <script type = "photos/javascript" src= "src/script/diaporama.js"></script><!-- (code du diaporama actuellement dans photographer.js)
+    var diapo = new Diaporama(["/img/photo1.jpg", /img/photo2.jpg, etc..."]) (tous les photos du photographe par leur nom)-->
+  
+</body><!--voir pour fonctionnement de global.js pour remplacer les liens-->
+ </html>
