@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <title>form-modal</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="style/component.css" />
+    <link rel="stylesheet" href="style/form-modal.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       href="https://fonts.googleapis.com/css?family=DM+Sans"
@@ -12,54 +13,24 @@
     />
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <div class="header-logo">
-      <img src="Logo.png" alt="logo">
-    </div>
-    <div class="main-navbar">
-      <a href="#" class="active"><span>Accueil</span></a>
-      <a href="#"><span>Détails de l'évènement</span></a>
-      <a href="#"><span>À propos</span></a>
-      <a href="#"><span>Contact</span></a>
-      <a href="#"><span>Évènements passés</span></a>
-      <a class="icon">
-        <i class="fa fa-bars" id= icon></i>
-      </a>
-    </div>
-    </div><!--end top-nav-->
-    <main>
-      <div class="hero-section">
+     <main>
+      <form>
         <div class="hero-content">
-          <h1 class="hero-headline">
-            Marathon national<br>
-            de jeux vidéos
+          <h1 class="hero-headline" href = photographer-page.html>
+            Contactez-moi<br>
+            <div id = photographerName >Mimi Keel</div><br>
           </h1>
-          <p class="hero-text">
-            Vous aimez jouer ?<br>Notre prochain évènement gaming est ouvert
-            aux réservations...<br> Places limitées !
-          </p>
-          <button class="btn-signup modal-btn">
-            je m'inscris
-          </button>
         </div>
-        <div class="hero-img">
-          <img src="./bg_img.jpg" alt="img" />
-        </div>
-        <button class="btn-signup modal-btn">
-          je m'inscris
-        </button>
-      </div>
-
-      <div class="bground">
-        <div class="content">
-          <span class="closeCross close"></span>
-          <div class="modal-body">
-            <form
-              name="reserve"
-              action="index.html"
-              method="get"
-            >
-              <div
+        <div class="bground">
+          <div class="content">
+            <span class="closeCross close"></span>
+            <div class="modal-body">
+              <form
+                name="reserve"
+                action="index.html"
+                method="get"
+              >          
+             <div
                 class="formData">
                 <label for="first" id="firstName">
                   Prénom
@@ -98,146 +69,28 @@
               </div>
               <div
                 class="formData">
-                <label for="birthdate" id="birthDate">
-                  Date de naissance
+                <label for="message" id="Message">
+                Votre message
                 </label><br>
                 <input class="text-control"
-                  type="date"
-                  id="birthdate"
-                  name="birthdate"
+                  type="text"
+                  id="message"
+                  name="text"
                   required
                 /><br>
-              </div>
-              <div
-                class="formData">
-                <label for="quantity" id="quantityNbr">
-                  À combien de tournois GameOn avez-vous déjà participé ?
-                </label><br>
-                <input class="text-control" 
-                  type="number" 
-                  id="quantity" 
-                  name="quantity" 
-                  min="0" 
-                  max="99" 
-                  required>
-              </div>
-              <p class="text-label">Quelle ville ?</p><!--au singulier en anglais-->
-              <div class="formData">
-                <input class="checkbox-input"
-                  type="radio"
-                  id="location1"
-                  name="location"
-                  value="New York"
-                />
-                <label for="location1" class="checkbox-label" >
-                  <span class="checkbox-icon"></span>
-                  New York</label
-                >
-                <input class="checkbox-input"
-                  type="radio"
-                  id="location2"
-                  name="location"
-                  value="San Francisco"
-                />
-                <label for="location2" class="checkbox-label">
-                  <span class="checkbox-icon"></span>
-                  San Francisco</label
-                >
-                <input class="checkbox-input"
-                  type="radio"
-                  id="location3"
-                  name="location"
-                  value="Seattle"
-                />
-                <label for="location3" class="checkbox-label">
-                  <span class="checkbox-icon"></span>
-                  Seattle</label
-                >
-                <input class="checkbox-input"
-                  type="radio"
-                  id="location4"
-                  name="location"
-                  value="Chicago"
-                />
-                <label for="location4" class="checkbox-label">
-                  <span class="checkbox-icon"></span>
-                  Chicago</label
-                >
-                <input class="checkbox-input"
-                  type="radio"
-                  id="location5"
-                  name="location"
-                  value="Boston"
-                />
-                <label for="location5" class="checkbox-label">
-                  <span class="checkbox-icon"></span>
-                  Boston</label
-                >
-                <input class="checkbox-input"
-                  type="radio"
-                  id="location6"
-                  name="location"
-                  value="Portland"
-                />
-                <label for="location6" class="checkbox-label">
-                  <span class="checkbox-icon"></span>
-                  Portland</label
-                  >
-                  <input class="checkbox-input"
-                  type="radio"
-                  id="location7"
-                  name="location"
-                  value="Portland"
-                />
-                <label for="location7" class="checkbox-label">
-                  <span class="checkbox-icon"></span>
-                  Aucune</label
-                  >
-              </div>
-
-              <div
-                class="formData">
-                <input class="checkbox-input"
-                  type="checkbox"
-                  id="checkbox1"
-                  required
-                /><!--chekeded n'est pas necessaire à cet endroit-->
-                <label for="checkbox1" class="checkbox2-label"><!--required n'est pas accepté par le validateur à cet endroit-->
-                  <span class="checkbox-icon"></span>
-                  J'ai lu et accepté les conditions d'utilisation.
-                </label>
-                <br>
-                <input class="checkbox-input" type="checkbox" id="checkbox2" />
-                <label for="checkbox2" class="checkbox2-label" >
-                  <span class="checkbox-icon"></span>
-                  Je souhaite être prévenu des prochains évènements.
-                </label>
-                <br>
-              </div>
-              <input class="btn-submit"
-                type="button"
-                name="submit_button"  
-                value="C'est parti"
-              /><!--class remplacé par name ds label pb validateur w3, button remplacé par submit_button??-->
-            </form>
-          </div>
+              </div>             
+          
           <div class="modal-success">
-            <span class="success-text">
-              Votre demande d'inscription a bien été enregistrée.
-            </span>
             <input class="btn-submit close"
               type="button"
-              name="close_button" 
-              value="Fermer" 
-            /><!--class remplacé par name ds label pb validateur w3-->
+              name="close_button"
+
+              value="x" 
+            />
+            <button> envoyer</button>
           </div>
-        </div>
-      </div>
+        
+    </form>
     </main>
-    <footer>
-      <p class="copyrights">
-        Copyright 2014 - 2020, GameOn Inc.
-      </p>
-    </footer>
-  </body>
+    </body>
 </html>

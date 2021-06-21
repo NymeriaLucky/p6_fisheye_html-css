@@ -124,8 +124,7 @@ font-size: 2.25rem;
 line-height: 2.5rem;
 --tw-text-opacity: 1;
 color: rgba(211,87,60,var(--tw-text-opacity));
-
-  }
+}
  
 .photographerList{
   padding: 15px;
@@ -200,7 +199,6 @@ color: rgba(211,87,60,var(--tw-text-opacity));
   color: #911C1C;
   text-align: center;
 }
-
 
 .scroll{    
     margin-left: 50%;

@@ -1,35 +1,29 @@
 /* photographer-page */
-html {/* Index */
+* {
+    box-sizing: border-box;
+  }
+
+  html {/* Index */
+    display:flex;
     position: relative;
     width: 1440px;
     height: 1024px;
     background: #FFFFFF;
-    display: block;
     font-family: dm-sans,ui-sans-serif,verdana,system-ui;
     line-height: 1.5;
     tab-size: 4;
   }
   
   body{/* Vector 1*/ 
+  display:flex;
   position: absolute;
   width: 1413.5px;
   height: 1003.5px;
   left: 11px;
   top: 5px;
   }
-
-/* .logo */
-#logo {
-border-radius: 0px;
-position: absolute;
-width: 200px;
-height: 50px;
-left: 100px;
-top: 43px;
-}
-
-/* .photograph-header */
-#header{
+ /* .photograph-header */
+ header{
     position: absolute;
     width: 1240px;
     height: 313px;
@@ -37,155 +31,26 @@ top: 43px;
     top: 131px;
     border-radius: 5px;
     background: #FAFAFA;
-    }
- 
-form{
-    height: 900px;
-width: 669px;
-left: 0px;
-top: 0px;
-border-radius: 5px;
+} 
+.gallery{
+        flex-direction: column;
+        margin-top: 8%;
+        height: 1003.5px;
+        width: 1413.5px;
+        left: 11px;
+        top: 7px;
+        display: flex;
+        justify-content: stretch;
+        margin-bottom: 30px;
+}
 
-}    
-/* Group */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Group */
-
-position: absolute;
-left: 0%;
-right: 52.14%;
-top: 0%;
-bottom: 20.83%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 87.64%;
-top: 1.82%;
-bottom: 21.61%;
-
-background: #911C1C;
-
-
-/* Vector */
-
-position: absolute;
-left: 14.14%;
-right: 82.18%;
-top: 0%;
-bottom: 21.61%;
-
-background: #911C1C;
-
-
-/* Vector */
-
-position: absolute;
-left: 19.86%;
-right: 67.72%;
-top: 21.88%;
-bottom: 20.83%;
-
-background: #911C1C;
-
-
-/* Vector */
-
-position: absolute;
-left: 34.78%;
-right: 52.14%;
-top: 1.82%;
-bottom: 21.61%;
-
-background: #911C1C;
-
-
-/* Group */
-
-position: absolute;
-left: 71.53%;
-right: 0%;
-top: 21.61%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 71.53%;
-right: 14.33%;
-top: 22.14%;
-bottom: 0%;
-
-background: #911C1C;
-
-
-/* Vector */
-
-position: absolute;
-left: 86.13%;
-right: 0%;
-top: 21.61%;
-bottom: 21.32%;
-
-background: #911C1C;
-
-
-/* Vector */
-
-position: absolute;
-left: 50.16%;
-right: 30.31%;
-top: 8.07%;
-bottom: 22.14%;
-
-background: #911C1C;
-
-
-/* .thumb-imgfull */
-
-position: absolute;
-width: 350px;
-height: 351px;
-left: 79px;
-top: 545px;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 14.53%;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: url(Animals-Rainbow.jpg), #C4C4C4;
-border-radius: 5px;
-
-
+.ListA, .ListB{
+            display: flex;
+            justify-content: space-between; 
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top: 10px;
+}          
 /* .likes */
 .likes{
 position: absolute;
@@ -194,1433 +59,290 @@ right: 0%;
 top: 88.32%;
 bottom: 2.85%;
 }
-
-
-/* favorite-24px 1 */
-
-position: absolute;
-left: 52.94%;
-right: 0%;
-top: 9.68%;
-bottom: 12.9%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 11.04%;
-
-background: #911C1C;
-
-
-/* 12 */
-
-position: absolute;
-left: -6.72%;
-right: 57.42%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* Arc-en-cie */
-
+/* Arc-en-ciel */
+#Arc-en-ciel{
 position: absolute;
 left: 0%;
 right: 16.57%;
 top: 88.32%;
 bottom: 2.85%;
-
 font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 31px;
-
 color: #911C1C;
-
-
-
-/* price */
-
-position: absolute;
-left: 67.71%;
-right: 18%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* 70 € */
-
-position: absolute;
-left: -10%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* .thumb-imgfull */
-
-position: absolute;
-width: 350px;
-height: 351px;
-left: 524px;
-top: 545px;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 14.53%;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: url(Travel-Lonesome.jpg), #C4C4C4;
-border-radius: 5px;
-
-
-/* .likes */
-
-position: absolute;
-left: 87.25%;
-right: 0%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* favorite-24px 1 */
-
-position: absolute;
-left: 52.94%;
-right: 0%;
-top: 9.68%;
-bottom: 12.9%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 11.04%;
-
-background: #911C1C;
-
-
-/* 12 */
-
-position: absolute;
-left: -6.72%;
-right: 57.42%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* Solitude */
-
-position: absolute;
-left: 0%;
-right: 16.57%;
-top: 88.32%;
-bottom: 2.85%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 31px;
-
-color: #911C1C;
-
-
-
-/* price */
-
-position: absolute;
-left: 67.71%;
-right: 18%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* 70 € */
-
-position: absolute;
-left: -10%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* .thumb-imgfull */
-
-position: absolute;
-width: 350px;
-height: 351px;
-left: 969px;
-top: 545px;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 14.53%;
-
-background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: url(Event-SeasideWedding.jpg), #C4C4C4;
-border-radius: 5px;
-
-
-/* .likes */
-
-position: absolute;
-left: 87.25%;
-right: 0%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* favorite-24px 1 */
-
-position: absolute;
-left: 52.94%;
-right: 0%;
-top: 9.68%;
-bottom: 12.9%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 11.04%;
-
-background: #911C1C;
-
-
-/* 12 */
-
-position: absolute;
-left: -6.72%;
-right: 57.42%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* Marriage à la mer */
-
-position: absolute;
-left: 0%;
-right: 16.57%;
-top: 88.32%;
-bottom: 2.85%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 31px;
-
-color: #911C1C;
-
-
-
-/* price */
-
-position: absolute;
-left: 67.71%;
-right: 18%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* 70 € */
-
-position: absolute;
-left: -10%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* .thumb-imgfull */
-
-position: absolute;
-width: 350px;
-height: 351px;
-left: 79px;
-top: 916px;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 14.53%;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: url(Portrait-Background.jpg), #C4C4C4;
-border-radius: 5px;
-
-
-/* .likes */
-
-position: absolute;
-left: 87.25%;
-right: 0%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* favorite-24px 1 */
-
-position: absolute;
-left: 52.94%;
-right: 0%;
-top: 9.68%;
-bottom: 12.9%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 11.04%;
-
-background: #911C1C;
-
-
-/* 12 */
-
-position: absolute;
-left: -6.72%;
-right: 57.42%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* Picture */
-
-position: absolute;
-left: 0%;
-right: 16.57%;
-top: 88.32%;
-bottom: 2.85%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 31px;
-
-color: #911C1C;
-
-
-
-/* price */
-
-position: absolute;
-left: 67.71%;
-right: 18%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* 70 $ */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* .thumb-imgfull */
-
-position: absolute;
-width: 350px;
-height: 351px;
-left: 524px;
-top: 916px;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 14.53%;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: url(Event-PintoWedding.jpg), #C4C4C4;
-border-radius: 5px;
-
-
-/* .likes */
-
-position: absolute;
-left: 87.25%;
-right: 0%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* favorite-24px 1 */
-
-position: absolute;
-left: 52.94%;
-right: 0%;
-top: 9.68%;
-bottom: 12.9%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 11.04%;
-
-background: #911C1C;
-
-
-/* 12 */
-
-position: absolute;
-left: -6.72%;
-right: 57.42%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* Picture */
-
-position: absolute;
-left: 0%;
-right: 16.57%;
-top: 88.32%;
-bottom: 2.85%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 31px;
-
-color: #911C1C;
-
-
-
-/* price */
-
-position: absolute;
-left: 67.71%;
-right: 18%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* 70 $ */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* .thumb-imgfull */
-
-position: absolute;
-width: 350px;
-height: 351px;
-left: 969px;
-top: 916px;
-
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 14.53%;
-
-background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-
-
-/* .thumb-img */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: url(Portrait-Wednesday.jpg), #C4C4C4;
-border-radius: 5px;
-
-
-/* .likes */
-
-position: absolute;
-left: 87.25%;
-right: 0%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* favorite-24px 1 */
-
-position: absolute;
-left: 52.94%;
-right: 0%;
-top: 9.68%;
-bottom: 12.9%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 11.04%;
-
-background: #911C1C;
-
-
-/* 12 */
-
-position: absolute;
-left: -6.72%;
-right: 57.42%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-
-/* Picture */
-
-position: absolute;
-left: 0%;
-right: 16.57%;
-top: 88.32%;
-bottom: 2.85%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 31px;
-
-color: #911C1C;
-
-
-
-/* price */
-
-position: absolute;
-left: 67.71%;
-right: 18%;
-top: 88.32%;
-bottom: 2.85%;
-
-
-
-/* 70 $ */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #911C1C;
-
-
-/* .user */
-
-position: absolute;
-left: 79.84%;
-right: 4.03%;
-top: 17.89%;
-bottom: 18.21%;
-
-
-
-/* .user */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #C4C4C4;
-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-
-/* img */
-img {
-position: absolute;
-left: -81%;
-right: -82%;
-top: -25%;
-bottom: -54%;
-background: url(Portrait-Nora.jpg);
 }
 
-/* .photographer-profile */
-.photographer-profile{
-height: 83px;
-width: 282px;
-position: absolute;
-left: 4.03%;
-right: 67.1%;
-top: 17.89%;
-bottom: 18.21%;
+aside{
+    justify-content: right;
+    height: 358px;
+    width: 526px;
+    left: -162px;
+    top: -50px;
+    object-position: center;
 }
-
-
+/* price */
+.prix{
+position: absolute;
+left: 67.71%;
+right: 18%;
+top: 88.32%;
+bottom: 2.85%;
+}
+/* .likes */
+.likes{
+position: absolute;
+left: 87.25%;
+right: 0%;
+top: 88.32%;
+bottom: 2.85%;
+}
+/* price */
+prix{
+position: absolute;
+left: 67.71%;
+right: 18%;
+top: 88.32%;
+bottom: 2.85%;
+}
+#MimiKeel/*section image dans index.html*/
+    {
+ object-position: right;
+ border-radius: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ flex-wrap: wrap;
+ zoom: normal;
+ position: static;
+ height: 30rem;
+ width: 38%;
+ height: 52%;
+ object-fit: cover;    
+}
 /* Mimi Keel */
-
-position: absolute;
-left: 0%;
-right: 21.23%;
-top: 0%;
-bottom: 58.5%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
+h1{
+  height: 83px;
+  width: 282px;
+  position: absolute;
+  line-height: 83px;
+right: 75%;
 font-size: 64px;
-line-height: 83px;
-
+bottom: 58.5%;
+font-family: DM Sans;   
 color: #D3573C;
-
-
-
+}
 /* London, UK */
-
+h4{
+height: 80px;
+width: 374px;
+left: 134px;
+text-align: left;   
+width: 124px;
 position: absolute;
-left: 0%;
 right: 65.36%;
 top: 41.5%;
 bottom: 43%;
-
 font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 31px;
-
 color: #901C1C;
-
-/* Voir le beau dans le quotidien */
-
-position: absolute;
-left: 0%;
-right: 2.79%;
-top: 66.5%;
-bottom: 22%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-
-color: #525252;
-
-
-
+}
 /* #portrait #events #travel #animals */
-tags{
+.tags{
 position: absolute;
 left: 1.12%;
 right: -33.24%;
 top: 87.5%;
 bottom: -1.5%;
-
 font-family: DM Sans;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 23px;
-
 color: #911C1C;
 }
+.thumb-imgfull{
+    height: 351px;
+    width: 350px;
+    left: 990px;
+    top: 547px;      
+}
+.thumb-img{/*image sans titre et likes*/        
+    width: 35%;
+    height: 30%;
+    left: 100px;
+    top: 547px;
+}
+     
+div.title {
+       height: 31px;
+       width: 292px;
+       left: 0px;
+       top: 310px;   
+       padding: 15px;
+       text-align: center;
+}
+ div.likes{/*coeur et chiffre*/
+        height: 18.350000381469727px;
+        width: 39.5px;
+        left: 1.75px;
+        top: 3px;
+}
 
-
-/* Rectangle 41 */
-
-position: absolute;
-left: -0.84%;
-right: 73.18%;
-top: 87.5%;
-bottom: 0.5%;
-
-border: 0.5px solid #C4C4C4;
-box-sizing: border-box;
-border-radius: 12px;
-
-
-/* .cta */
-
-position: absolute;
-left: 36.29%;
-right: 50%;
-top: 20.13%;
-bottom: 57.83%;
-
-
-/* Rectangle 2 */
-.contact-button, #scroll {
-position: absolute;
+#likes_and_price{/*likes et prix button*/
+    height: 89px;
+    width: 376px;<a class="likes" id="likes-number">12</a>
+    <span><i class="fas fa-heart content"aria-hidden="true"></i></span>
 left: 0%;
 right: 0%;
 top: 0%;
 bottom: 0%;
-
 background: #911C1C;
 border-radius: 5px;
 }
 
-/* expand_more-24px 4 */
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+button{/*rectangle 2*/
+  height: 69px;
+  width: 170px;
+  border-radius: 5px;
+  color:white;
+   margin-left: 45%;   
+        border-radius: 5px;
+        background: #901C1C;
+        object-position: center;    
+}
+/*button*/
+.dropbtn {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #DB8876;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*Le css suivant est utilisé pour la flèche déroulante.*/
 
-position: absolute;
-left: 75.29%;
-right: 5.88%;
-top: 26.09%;
-bottom: 27.54%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-opacity: 0.87;
-
-
-/* label */
-#Contact-Me{
-position: absolute;
-left: 6.47%;
-right: 6.47%;
-top: 30.43%;
-bottom: 31.88%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 26px;
-/* identical to box height */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+.arrow {
+    position: relative;
+    height: 15px;
+    width: 15px;
+}
+.arrow::before, .arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 0.15rem;
+    height: 100%;
+    transition: all 0.5s;
+}
+.arrow::before {
+    left: -5px;
+    transform: rotate(45deg);
+    background-color: #394a6d;
+}
+.arrow::after {
+    left: 5px;
+    transform: rotate(-45deg);
+    background-color: #394a6d;
+}
+.open .arrow::before {
+    left: -5px;
+    transform: rotate(-45deg);
+}
+.open .arrow::after {
+    left: 5px;
+    transform: rotate(45deg);
 }
 
-
 /* .dropdown-open */
-
+.dropdown-open{
 position: absolute;
 width: 170px;
 height: 69px;
 left: 175px;
 top: 453px;
-
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-
-/* Rectangle 2 */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: -146.38%;
-
-background: #911C1C;
-border-radius: 5px;
-
-
-/* expand_more-24px 4 */
-
-position: absolute;
-left: 94.12%;
-right: -12.94%;
-top: 72.46%;
-bottom: -18.84%;
-
-transform: rotate(-180deg);
-
-
-/* Vector */
-
-position: absolute;
-left: 100%;
-right: -100%;
-top: 100%;
-bottom: -100%;
-
-opacity: 0.87;
-transform: rotate(-180deg);
-
-
-/* Vector */
-
-position: absolute;
-left: 75%;
-right: -25%;
-top: 64.21%;
-bottom: 4.92%;
-
-background: #FFFFFF;
-transform: rotate(-180deg);
-
-
-/* label */
-
-position: absolute;
-left: 11.76%;
-right: 63.53%;
-top: 108.7%;
-bottom: -42.03%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-
-color: #FFFFFF;
-
-
-
-/* label */
-
-position: absolute;
-left: 11.76%;
-right: 64.12%;
-top: 184.06%;
-bottom: -117.39%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-
-color: #FFFFFF;
-
-
-
-/* label */
-
-position: absolute;
-left: 11.76%;
-right: 35.29%;
-top: 33.33%;
-bottom: 33.33%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-
-color: #FFFFFF;
-
-
-
-/* Rectangle 3 */
-
-position: absolute;
-left: 5.88%;
-right: 5.88%;
-top: 86.96%;
-bottom: 11.59%;
-
-background: #FFFFFF;
-
-
-/* Rectangle 4 */
-
-position: absolute;
-left: 5.88%;
-right: 5.88%;
-top: 162.32%;
-bottom: -63.77%;
-
-background: #FFFFFF;
-
-
-/* .cta */
-
-position: absolute;
-width: 170px;
-height: 69px;
-left: 1007px;
-top: 941px;
-
-
-
-/* Rectangle 2 */
-
-position: absolute;
-left: 0%;
-right: -121.18%;
-top: 18.84%;
-bottom: -47.83%;
-
-background: #DB8876;
-border-radius: 5px;
-
-
-/* .likes */
-
-position: absolute;
-left: 62.94%;
-right: 10.81%;
-top: 27.54%;
-bottom: 27.54%;
-
-
-
-/* favorite-24px 1 */
-
-position: absolute;
-left: 35.01%;
-right: 17.93%;
-top: 58.06%;
-bottom: -35.48%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 12.5%;
-bottom: 11.04%;
-
-background: #000000;
-
-
-/* 297 081 */
-
-position: absolute;
-left: -170.31%;
-right: 75.35%;
-top: 48.39%;
-bottom: -48.39%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: right;
-
-color: #000000;
-
-
-
-/* .cta */
-
-position: absolute;
-width: 170px;
-height: 102px;
-left: 1197px;
-top: 940px;
-
-
-
-/* expand_more-24px 4 */
-
-position: absolute;
-left: 75.29%;
-right: 5.88%;
-top: 26.09%;
-bottom: 27.54%;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-opacity: 0.87;
-
-
-/* label */
-
-position: absolute;
-left: 11.18%;
-right: 10.59%;
-top: 34.31%;
-bottom: 35.29%;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
-text-align: center;
-
-color: #000000;
-
-
-
-/* Trier par */
-
-position: absolute;
-width: 74px;
-height: 23px;
-left: 97px;
-top: 466px;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-
-color: #000000;
-
-
-
-/* Rectangle 41 */
-
-position: absolute;
-left: 15.97%;
-right: 78.19%;
-top: 35.35%;
-bottom: 62.3%;
-
-border: 0.5px solid #C4C4C4;
-box-sizing: border-box;
-border-radius: 12px;
-
-
-/* Rectangle 246 */
-
-position: absolute;
-left: 22.15%;
-right: 72.08%;
-top: 35.35%;
-bottom: 62.3%;
-
-border: 0.5px solid #C4C4C4;
-box-sizing: border-box;
-border-radius: 12px;
-
-
-/* Rectangle 247 */
-
-position: absolute;
-left: 28.26%;
-right: 64.93%;
-top: 35.35%;
-bottom: 62.3%;
-
-border: 0.5px solid #C4C4C4;
-box-sizing: border-box;
-border-radius: 12px;
-
-
-/* Group 32 */
-
-position: absolute;
-width: 1440px;
-height: 1465px;
-left: -1px;
-top: -441px;
-
-
-
-/* Rectangle 33 */
-
-position: absolute;
-width: 1440px;
-height: 1465px;
-left: -1px;
-top: -441px;
-
-background: #919090;
-background-blend-mode: multiply;
-
-
-/* Rectangle 34 */
-
-position: absolute;
-width: 1424px;
-height: 157px;
-left: 7px;
-top: 4px;
-
-border: 5px solid #95FFF9;
-box-sizing: border-box;
-
-
-/* Rectangle 248 */
-
-position: absolute;
-width: 1424px;
-height: 849px;
-left: 7px;
-top: 167px;
-
-border: 5px solid #95FFF9;
-box-sizing: border-box;
-
-
-/* Group 26 */
-
-position: absolute;
-width: 148.46px;
-height: 83px;
-left: 18.03px;
-top: 14px;
-
-
-
-/* Rectangle 38 */
-
-position: absolute;
-width: 148.46px;
-height: 83px;
-left: 18.03px;
-top: 14px;
-
-background: #95FFF9;
-
-
-/* header/ banner */
-
-position: absolute;
-width: 118.37px;
-height: 56px;
-left: 42.1px;
-top: 28px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 29px;
-
-color: #000000;
-
-
-
-/* Group 27 */
-
-position: absolute;
-width: 166px;
-height: 70px;
-left: 18px;
-top: 179px;
-
-
-
-/* Rectangle 39 */
-
-position: absolute;
-width: 115px;
-height: 60px;
-left: 18px;
-top: 179px;
-
-background: #95FFF9;
-
-
+}
 /* main */
-
+main{
 position: absolute;
 width: 142px;
 height: 56px;
 left: 42px;
 top: 193px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 29px;
-
 color: #000000;
+}
+/* ****************************** smartphone only ****************************** */
+@media (max-width: 766px) {
+    /* .logo */
+    #logo{
+    height: 37.5px;
+    width: 150px;
+    left: 20px;
+    top: 40px;
+    justify-content: flex-start;
+    position: absolute;
+    }
+    
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      .thumb-img{/*image sans titre et likes*/        
+        width: 335px;
+        height: 190px;
+        left: 100px;
+        top: 547px;
+         }  
 
+    .tag {/*.photographer_cathegories #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events buttons*/
+    margin-right:.25rem;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgba(209,213,219,var(--tw-border-opacity));
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    --tw-text-opacity: 1;
+    color: rgba(144,28,28,var(--tw-text-opacity));
+    transition-duration: .2s;
+    color: #911C1C;
+  } 
+  
+ 
+}
