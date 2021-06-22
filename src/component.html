@@ -13,74 +13,95 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <!-- sur la page d'accueil j'affiche l'ensemble des photographes et je vais mettre un lien vers la page 
         de détail de chacun avec detail.js.Dans ce lien : passer un paramètre d'url avec l'id de chacun --> 
-      <input id="form-textarea">
-        <h3>Prénom</h3>
-      </input>
-</head>         
-<body>
-  <header>
-   <div class ="container">
-     <a class="tag" href= "tag-name" id="tag-name"><span>#tag-name"></span></a>   
-     <a class="likes" id="likes-number">12</a>
+  </head>         
+  <body>
+   <header>
+      <input id="form-textarea"value="prenom">     
+   </header>
+   <br> 
+    <div class ="container">
+       <a class="tag" href= "tag-name" id="tag-name"><span>#tag-name</span></a>   
+       <a class="likes" id="likes-number">12</a>
        <span><i class="fas fa-heart content"aria-hidden="true"></i></span>
-    <buttons>
-        <div id="dropdown"> <!-- Liste déroulante pour le tri parmi 3 critères -->
-         Popularité 
-        </div>
-       <div id="dropdown"href= "liste déroulante/listeD.html"> <!-- Liste déroulante pour le tri parmi 3 critères -->
-         Popularité
-        <hr>
-         Date
-        <hr>
-         Titre
-        </div>
+      
+       <div class ="buttons">
+          <div id="dropdown"> <!-- Liste déroulante pour le tri parmi 3 critères -->
+             Popularité 
+          </div>
+          <div id="dropdown"href= "liste déroulante/listeD.html"> <!-- Liste déroulante pour le tri parmi 3 critères -->
+             Popularité
+            <br>
+            Date
+           <br>
+            Titre
+          </div>
        <div id="button"> <!-- engagez-moi -->
          Engagez-moi
        </div>
        <div id="button"> <!-- engagez-moi -->
          Engagez-moi
-       </div>
-    </buttons>
+       </div> 
   </div>
-  </header>
+ 
     <br/><!--logo-->
-  <a href = "/index.html" id="logo" aria-label="Lien vers page d'accueil de FishEye">
+  <a href = "./index.html" id="logo" aria-label="Lien vers page d'accueil de FishEye">
             <img src="image/logo/fisheye-logo.png" id="logo" alt="logo de FishEye"/>
   </a>
   <br>
-  <section>
-  <img src="src/image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/KoldBarkley.jpg" alt="Kold Barkley">
+  <section class="miniature">
+  <img src="image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/TracyGalindo.jpg" alt="Tracy Galindo" id="img-miniature">
   </section>
-  <h1>Kold Barkley</h1>
-  <h4>Auckland, new Zealand</h4>
-  <blockquote>Photographe et réalisateur<3</blockquote>
-  <a class="tag" href= "tag-portrait" id="portrait"><span>#portraits</span></a> 
+  <h1>Tracy Galindo</h1>
+  <p>Montreal, Canada</p>
+  <blockquote>Photographe freelance</blockquote>
+  <a class="tag" href= "tag-art" id="art"><span>#art</span></a>
+  <a class="tag" href= "tag-fashion" id="fashion"><span>#fashion</span></a>
+  <a class="tag" href= "tag-events" id="events"><span>#events</span></a>
   <!--rectangle photos-->  
-  <canvas id="photo">
-      photo
+  <canvas id="thumb-imgfull">
+    <div >
+       <img src="image/FishEyes_Photos/Sample_Photos/Tracy_Galindo/Event_18thAnniversary.jpg" alt =" 18eme_anniversaire">
+     <div>
+    <p>photo
       <a class="likes" id="likes-number">12</a>
-      <span><i class="fas fa-heart content"aria-hidden="true"></i></span>
-    </canvas>
-    
-    <article><!--portrait-->
-           <img src="src/image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/KoldBarkley.jpg" alt="Kold Barkley">
-         <h2>Kolb Barkley</h2>
-     
-          <h4>Auckland, new Zealand</h4>
-        <blockquote>Voir le beau dans les choses du quotidien</blockquote>    
-   </article><!--user-->
-     <span class="prix">400€/jour</span><br>
-     <a class="tag" href= "tag-name" id="tag-name"><span>#tag-name"></span></a> 
-   
-    <div class ="photograph-header" id = "photographer-profile">
-      <h1>Kolb Barkley<button>Contactez-moi</button></h1>
-        <h4>Auckland, New Zealand</h4>
-         <blockquote>Photographe et réalisateur <3</blockquote>
-           <a class="tag" href= "tag-portrait" id="portrait"><span>#portraits</span></a> 
-           
-           <aside>
-           <img src="src/image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/KoldBarkley.jpg" alt="Kold Barkley">
-           </aside>   
-      </div> 
+      <span><i class="fas fa-heart content"aria-hidden="true"></i></span></p>
+  </canvas>
+<!--on retrouvela carte photographe de index.html-->    
+  <div class="photographer-profile">
+    <article>
+     <section>
+       <img src="image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/TracyGalindo.jpg" alt ="Tracy_Galindo">
+      <h2>Tracy Galindo</h2>
+     </section>
+       <p>Montreal, Canada</p>
+         <blockquote>Photographe freelance</blockquote>
+    </article>
+     <span class="prix">500€/jour</span>
+       <div class= "tagsbox">   
+         <a class="tag" href= "tag-art" id="art"><span>#art</span></a>
+         <a class="tag" href= "tag-fashion" id="fashion"><span>#fashion</span></a>
+         <a class="tag" href= "tag-events" id="events"><span>#events</span></a>
+       </div>
+   </div> 
+<!--fin de la carte idem index.html--> 
+<!--on retrouve ce photograph-header dans la photographer-page.html-->   
+ <div class= photographerCard>   
+   <div class ="photograph-header" id="photograph-header">
+     <h2>Tracy Galindo</h2>
+      <button id="contact-Button">Contactez-moi</button>
+        <h5>Montreal, Canada</h5>
+         <blockquote id="tagline">Photographe freelance</blockquote>
+         <div class="All-tags">
+           <a class="tag" href= "tag-art" id="art"><span>#art</span></a>
+           <a class="tag" href= "tag-fashion" id="fashion"><span>#fashion</span></a>
+           <a class="tag" href= "tag-events" id="events"><span>#events</span></a>
+         </div> 
+         <aside>
+           <section>
+           <img src="image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/TracyGalindo.jpg" alt="Tracy Galindo">
+          </section>
+         </aside>   
+   </div>
+ </div> 
 </body>    
 </html>

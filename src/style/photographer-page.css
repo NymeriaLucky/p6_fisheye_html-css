@@ -31,7 +31,16 @@
     top: 131px;
     border-radius: 5px;
     background: #FAFAFA;
-} 
+}
+#form-textarea {
+justify-content: start;
+height: 97px;
+width: 599px;
+left: 0px;
+top: 0px;
+border-radius: 5px;
+
+}
 .gallery{
         flex-direction: column;
         margin-top: 8%;
