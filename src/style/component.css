@@ -19,6 +19,7 @@
     font-size: 16px;
     border-radius:5px;
     cursor: pointer;
+    margin-top: 50%;
 }
   
 .dropbtn:hover, .dropbtn:focus {
@@ -108,7 +109,6 @@ height: 47px;
 width: 128px;
 left: 21px;
 top: 25px;
-opacity:30%;
 font-family: DM Sans;
 font-size: 36px;
 font-style: normal;
@@ -137,7 +137,7 @@ h5{
     text-align: left;
     margin-left:-76.5%;     
 }
-#tagline {
+blockquote {
 height: 23px;
 width: 348px;
 left: 0px;
@@ -150,7 +150,7 @@ line-height: 23px;
 letter-spacing: 0em;
 text-align: left;
 color: #525252;
-margin-left:-83%;
+
 }
 .All-tags{
     margin-left:-77%;

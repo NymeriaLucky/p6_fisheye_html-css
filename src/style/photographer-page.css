@@ -2,6 +2,9 @@
 * {
     box-sizing: border-box;
   }
+  *, *:after, *:before {
+    box-sizing: border-box;
+}
 
   html {/* Index */
     display:flex;
@@ -22,15 +25,26 @@
   left: 11px;
   top: 5px;
   }
+  #logo{
+  position:absolute;
+  height: 60px;
+width: 250px;
+left: 20px;
+top: 40px;
+border-radius: 0px;
+margin-top: -25px;
+  }    
  /* .photograph-header */
- header{
-    position: absolute;
-    width: 1240px;
-    height: 313px;
-    left: 79px;
-    top: 131px;
-    border-radius: 5px;
-    background: #FAFAFA;
+ #photograph-header{
+  margin-top:-2%;
+  object-position:center top;    
+  height: 313px;
+  width: 1240px;
+  text-align: left;
+  position: absolute;   
+  top: 131px;
+  background: #FAFAFA;
+  margin-left: 40px;
 }
 #form-textarea {
 justify-content: start;
@@ -39,36 +53,31 @@ width: 599px;
 left: 0px;
 top: 0px;
 border-radius: 5px;
-
 }
 .gallery{
-        flex-direction: column;
-        margin-top: 8%;
-        height: 1003.5px;
-        width: 1413.5px;
-        left: 11px;
-        top: 7px;
-        display: flex;
-        justify-content: stretch;
-        margin-bottom: 30px;
+  display:flex;
+  flex-direction: column;
+  margin-top: 8%;
+  height: 1003.5px;
+  width: 1413.5px;
+  left: 11px;
+  top: 7px;
+  display: flex;
+  justify-content: stretch;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
-.ListA, .ListB{
+.ListA .ListB{
             display: flex;
             justify-content: space-between; 
             flex-wrap: wrap;
             flex-direction: row;
             margin-top: 10px;
+            height: 20%;
 }          
-/* .likes */
-.likes{
-position: absolute;
-left: 87.25%;
-right: 0%;
-top: 88.32%;
-bottom: 2.85%;
-}
-/* Arc-en-ciel */
+
+/* Arc-en-ciel *
 #Arc-en-ciel{
 position: absolute;
 left: 0%;
@@ -82,7 +91,7 @@ font-size: 24px;
 line-height: 31px;
 color: #911C1C;
 }
-
+/*
 aside{
     justify-content: right;
     height: 358px;
@@ -108,84 +117,104 @@ top: 88.32%;
 bottom: 2.85%;
 }
 /* price */
-prix{
+.prix{
 position: absolute;
 left: 67.71%;
 right: 18%;
 top: 88.32%;
 bottom: 2.85%;
 }
-#MimiKeel/*section image dans index.html*/
-    {
- object-position: right;
+aside{
+height: 358px;
+width: 526px;
+left: -162px;
+top: -50px;
+}
+aside img/*section image dans index.html*/
+{
+display:flex;
+ object-position: center;
  border-radius: 50%;
- margin-left: auto;
- margin-right: auto;
+margin-left: 995px;
+margin-top: -245px;
  flex-wrap: wrap;
  zoom: normal;
  position: static;
  height: 30rem;
  width: 38%;
  height: 52%;
- object-fit: cover;    
+ object-fit: cover; 
+ position: static;
+
 }
-/* Mimi Keel */
+p{
+  margin-top: 420px;
+  margin-left: 15px;
+}
+ /*Mimi Keel */
 h1{
   height: 83px;
   width: 282px;
   position: absolute;
   line-height: 83px;
-right: 75%;
+right: 74%;
 font-size: 64px;
 bottom: 58.5%;
 font-family: DM Sans;   
 color: #D3573C;
+margin-top:90%;
 }
 /* London, UK */
 h4{
 height: 80px;
 width: 374px;
-left: 134px;
+left: 42px;
 text-align: left;   
 width: 124px;
 position: absolute;
 right: 65.36%;
-top: 41.5%;
-bottom: 43%;
 font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
-line-height: 31px;
 color: #901C1C;
+margin-top: 50px;
 }
+blockquote {
+  display:flex;
+  height: 23px;
+  width: 348px;
+  top: 133px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #525252; 
+  margin-top: 70px;
+  }
 /* #portrait #events #travel #animals */
-.tags{
-position: absolute;
-left: 1.12%;
-right: -33.24%;
-top: 87.5%;
-bottom: -1.5%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 23px;
-color: #911C1C;
+.tagsbox{
+height: 38px;
+width: 399px;
+top: 360px;
+margin-left: 40px;
+margin-top: 50px;
 }
+/*
 .thumb-imgfull{
     height: 351px;
     width: 350px;
-    left: 990px;
-    top: 547px;      
+          
+}*/
+.thumb-img{/*image sans titre et likes*/       
+    width: 35px;
+    height: 25px; 
+    object-fit: cover;   
 }
-.thumb-img{/*image sans titre et likes*/        
-    width: 35%;
-    height: 30%;
-    left: 100px;
-    top: 547px;
-}
-     
+   
 div.title {
        height: 31px;
        width: 292px;
@@ -194,45 +223,43 @@ div.title {
        padding: 15px;
        text-align: center;
 }
- div.likes{/*coeur et chiffre*/
+.fa fa-heart{/*coeur */
         height: 18.350000381469727px;
         width: 39.5px;
         left: 1.75px;
         top: 3px;
 }
 
-#likes_and_price{/*likes et prix button*/
-    height: 89px;
-    width: 376px;<a class="likes" id="likes-number">12</a>
-    <span><i class="fas fa-heart content"aria-hidden="true"></i></span>
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-background: #911C1C;
+#likesAndPrice{/*likes et prix button*/
+height: 89px;
+width: 376px;
+ background: #DB8876;
+color:black;
 border-radius: 5px;
+position:fixed;
+text-align: center;
 }
 
-*, *:after, *:before {
-    box-sizing: border-box;
-}
 button{/*rectangle 2*/
-  height: 69px;
+  height: 59px;
   width: 170px;
   border-radius: 5px;
   color:white;
-   margin-left: 45%;   
-        border-radius: 5px;
-        background: #901C1C;
-        object-position: center;    
+  margin-left: 38%;   
+  border-radius: 5px;
+  background: #901C1C;
+  object-position: center;
+  margin-top: 15px;    
 }
 /*button*/
-.dropbtn {
+#dropbtn {
     position: relative;
     display: inline-block;
+    margin-top:-4px;
+    margin-left:80px;
   }
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background: #DB8876;
@@ -242,11 +269,10 @@ button{/*rectangle 2*/
     z-index: 1;
   }
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
   }
 /*Le css suivant est utilisé pour la flèche déroulante.*/
-
 .arrow {
     position: relative;
     height: 15px;
@@ -278,7 +304,6 @@ button{/*rectangle 2*/
     left: 5px;
     transform: rotate(45deg);
 }
-
 /* .dropdown-open */
 .dropdown-open{
 position: absolute;
@@ -302,36 +327,63 @@ font-size: 24px;
 line-height: 29px;
 color: #000000;
 }
-/* ****************************** smartphone only ****************************** */
+/* ****************************** smartphone, tablet and screen until 1024px ****************************** */
+@media all and (max-width: 1024px) {
+  body{
+    overflow-x:hidden;
+  }
+  body {
+    width: 100%;
+    padding: 0 16px;
+  }
+  
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .photographerList {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-top: 20px;
+    order: 2;
+  }
+  
+}
+/******************************* smartphone only ****************************** */
 @media (max-width: 766px) {
     /* .logo */
     #logo{
-    height: 37.5px;
-    width: 150px;
-    left: 20px;
-    top: 40px;
+      height: 50px;
+      width: 200px;
+      left: 100px;
+      top: -2px; 
     justify-content: flex-start;
     position: absolute;
-    }
-    
-    div.gallery {
+    }    
+  
+  div.gallery {
         margin: 5px;
         border: 1px solid #ccc;
         float: left;
         width: 180px;
       }
       
-      div.gallery:hover {
+  div.gallery:hover {
         border: 1px solid #777;
       }
-      
-      .thumb-img{/*image sans titre et likes*/        
+  /*    
+  .thumb-img{/*image sans titre et likes*       
         width: 335px;
-        height: 190px;
-        left: 100px;
-        top: 547px;
-         }  
-
+        height: 190px;    
+         }
+  .thumb-imgfull{
+      height: 351px;
+      width: 350px;
+      left: 550px;
+      top: 581px;  
+     }      
+*/
     .tag {/*.photographer_cathegories #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events buttons*/
     margin-right:.25rem;
     border-radius: 9999px;

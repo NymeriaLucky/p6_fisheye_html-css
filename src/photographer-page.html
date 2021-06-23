@@ -19,31 +19,33 @@
       </a>
   </head>
   <body>
-    <header>
-          <article>
-            <div class ="photograph-header" id="photograph-header">
-              <div class ="user-page"id ="243">
-               <h1>Mimi Keel</h1>
-                 <button href="form-modal.html">Contactez-moi
-                 </button>
+  <div class ="user-page"id ="243"></div>
+     <header>
+       <article>
+          <div class= photographerCard> 
+             <div class ="photograph-header" id="photograph-header">
+              <h1>Mimi Keel</h1>
+                <button href="form-modal.html">Contactez-moi
+                </button>
                 <br>
                 <h4>London, Uk</h4><br>
-                 <blockquote>Voir le beau dans le quotidien</blockquote>
+                    <blockquote>Voir le beau dans le quotidien</blockquote>
+                 <div class= "tagsbox">
                    <a class="tag" href= "tag-portrait" id="portrait"><span>#portraits</span></a>
                    <a class="tag" href= "tag-events" id="events"><span>#events</span></a> 
                    <a class="tag" href= "tag-travel" id="travel"><span>#travel</span></a>
                    <a class="tag" href= "tag-animals" id="animals"><span>#animals</span></a>
+                 </div>
                    <aside>
                    <img src="image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/MimiKeel.jpg" id="MimiKeel" alt="Mimi Keel">
                    </aside>
-                 </div>     
-              </div> 
-          </article>
+              </div>     
+            </div>
+        </article>
       </header>
-
-    <div class= "container">
+   <div class= "container">
       <p>Trier par</p>
- 
+        <button id= "dropbtn">
         <div class="dropdown-select-wrapper">
          <div class="dropdown-select">
             <div class=".dropdown-select__trigger"><span>Popularité</span>
@@ -56,31 +58,32 @@
             </div>
           </div>
         </div>
-    
-    <div class= "diaporama.html?id=243">
-      <div class="gallery">
+     </button>
+      <div class= "diaporama.html?id=243">
+       <div class="gallery">
         <div class=ListA>
+
           <div class="thumb-imgfull">
-          <div class="thumb-img">
-           <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Rainbow.jpg" id="Arc-en-ciel" alt="oiseau_Arc-en-ciel">
-          </div>
-         <a class = "texte">
-           <div class="title">Arc-en-ciel</div>
-           <div class = "likes"><i class="fas fa-heart content"aria-hidden="true">12</i></div>
-         </a>
+             <div class="thumb-img">
+               <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Rainbow.jpg" id="Arc-en-ciel" alt="oiseau_Arc-en-ciel">
+             </div>
+             <a class = "texte">
+               <div class="title">Arc-en-ciel</div>
+               <div class = "likes"><i class="fas fa-heart content"aria-hidden="true">12</i></div>
+             </a>
         </div>
           
-        <div class="thumb-imgfull">
+    <!--<div class="thumb-imgfull">
           <div class="thumb-img">
-            <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Travel_Lonesome.jpg" id="Solitude" alt ="Solitude">
-            </div>
+             <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Travel_Lonesome.jpg" id="Solitude" alt ="Solitude">
+          </div>
             <a class = "texte">
               <div class="title">Solitude</div>
               <div class = "likes"><i class="fas fa-heart content"aria-hidden="true">12</i></div>
-             </a>
-        </div>     
+            </a>
+        </div> -->    
 
-        <div class="thumb-imgfull">
+    <!-- <div class="thumb-imgfull">
            <div class="thumb-img">
             <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Event_SeasideWedding.jpg" id="Mariage_a_la_mer" alt="Mariage_a_la_mer">
            </div>
@@ -89,29 +92,30 @@
             <div class = "likes"><i class="fas fa-heart content"aria-hidden="true">12</i></div>
            </a>
         </div>
-       </div><!--fin liste1-->
-       <div class=ListB>
-        <div class="thumb-imgfull">
+       </div><--fin listeA--
+       <div class=ListB>-->
+
+     <!--<div class="thumb-imgfull">
            <div class="thumb-img">
             <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Portrait_Background.jpg" id="Portrait_Background" alt="Portrait_Background">
            </div>
           <a class = "texte">
             <div class="title">Portrait</div>
             <div class = "likes"><i class="fas fa-heart content"aria-hidden="true">12</i></div>
-           </a>
-        </div>
+          </a>
+        </div>-->
 
-        <div class="thumb-imgfull">
+  <!--  <div class="thumb-imgfull">
            <div class="thumb-img">
             <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Event_PintoWedding.jpg" id="Event_PintoWedding"alt="Event_PintoWedding">
            </div>
           <a class = "texte">
             <div class="title">Event PintoWedding</div>
             <div class = "likes"><i class="fas fa-heart content"aria-hidden="true">12</i></div>
-           </a>
-        </div>
+          </a>
+        </div>-->
 
-        <div class="thumb-imgfull">
+   <!-- <div class="thumb-imgfull">
            <div class="thumb-img">
             <img src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Portrait_Wednesday.jpg" id="vendredi" alt=vendredi>
            </div>
@@ -119,30 +123,35 @@
             <div class="title">vendredi</div>
             <div class = "likes"><i class="fas fa-heart content"aria-hidden="true">12</i></div>
            </a>
-        </div>
+        </div>-->
 
-        <div class ="video"><!--conteneur des videos-->
+       <div class ="video">
           <video controls poster = image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.jpg  aria-label="video du photographe" width="650px">
             <source src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.mp4" alt= "Video_du photographe">
             <source src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.webn">
             <source src ="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/Animals_Wild_Horses_in_the_mountains.ogv"">
-            
+         
             <div class="caption">
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
-            </div>
+            </div> 
           </video>
-        </div>
+        </div><!----
+       </div><!-fin listeB--
 
-       </div><!--fin liste2--> 
-      </div>     
-   </div>
+      </div><!-fin gallery--      
+    </div><!-fin diaporama-- 
+  </div><!-fin container--
+  </div><!-fin user-page-->
+  <footer>
+      <button id="likesAndPrice">
+        <span>
+          <i class="fa fa-heart" aria-hidden="true">297 081</i>
+        <span class="prix">300€/jour</span>
+        </span>
+      </button>
+  </footer>
+</div><!--fin user-page acec photographer header + la galerie d'images-->
+  <script src="./script/Model/Photograph.js"></script>
 
-   <span class ="likes_and_price">
-    <a class="likes" id="likes-number">297 081
-    <i class="fas fa-heart content"aria-hidden="true"></i></a>
-     <a class="prix">300€/jour</a>
-    </span> 
-
-  </div><!--fin user-page-->
 </body><!--voir pour fonctionnement de global.js pour remplacer les liens-->
 </html>

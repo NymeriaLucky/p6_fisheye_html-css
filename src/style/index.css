@@ -227,7 +227,6 @@ a {
   text-decoration: inherit;
 }
 
-
 img, video {
   max-width: 100%;
   height: auto;
@@ -307,8 +306,8 @@ text-align: center;
 color: #757575;
 justify-content: space-around;
 }
-/* Rectangle 245 tagboxs individuels de la carte*
-tagList{
+/* Rectangle 245 tagboxs individuels de la carte*/
+.tagList{
 position: absolute;
 width: 263px;
 height: 30px;
@@ -431,17 +430,17 @@ color: #D3573C;
   body{
     overflow-x:hidden;
   }
-  .container {
+  body {
     width: 100%;
     padding: 0 16px;
   }
   
-  .heberg {
+  .main {
     flex-direction: column;
     width: 100%;
   }
   
-  .heberg .hebergement_list {
+  .photographerList {
     flex-basis: 100%;
     margin-right: 0;
     margin-top: 20px;
@@ -453,10 +452,10 @@ color: #D3573C;
 @media (max-width: 766px) {
 /* .logo */
 #logo{
-height: 37.5px;
-width: 150px;
-left: 20px;
-top: 40px;
+  height: 50px;
+  width: 200px;
+  left: 100px;
+  top: 42px; 
 justify-content: flex-start;
 position: absolute;
 }    
