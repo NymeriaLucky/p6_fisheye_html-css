@@ -24,7 +24,10 @@ displayList(){
   }
 
   displayDetail(){
-      let photograph="";
+     let tagsbox="";
+      for(let tag of this.tags){
+        tagsbox+= `<a class="tag" href="tag-${tag}" id="${tag}"><span>#${tag}</span></a>`   
+        }
        return `<div class="user-page" href="src/photographer-page.html?id=${this.id}">
          <div class ="user-page" id ="243">
              <h1>${this.name}</h1>
@@ -34,33 +37,12 @@ displayList(){
                 <h4>${this.city}, ${this.country}</h4><br>
                  <blockquote>${this.tagline}</blockquote>
                     <div class= "tagsbox">
-                        ${this.tags}
+                    ${tagsbox}
                     </div>
                   <aside>
                     <img src="src/image/FishEyes_Photos/Sample_Photos/Photographers_ID_Photos/${this.portrait}" id="${this.name}" alt="${this.name}">
                   </aside>
           </div>`;     
   }
-
   /*pour afficher le photograph sur la page photographer-page*/
-
- 
 }
-/*
-essai :
-
-
-var photographer= {
-  id :243 ,
-  photographerElement: "user-page",
-
-   displayDetail:function({
-     console.log(this.id + " " + this.photographerElement);
-   })
-}
-photographer.displayDetails(); // 243 user-page
-
-
-var myPhotographerDetails =  photographer.displayDetails.bind(photographer);///methode bind peut être réutilisée pour un photograph
-myPhotographerDetails();//243 user-page
-*/
