@@ -54,4 +54,5 @@ for (property in medias) {
 }
 } 
 /*pour mercredi/jeudi afficher les media
-et jeudi/vendredi commencer les filtres ok fait*/
+et jeudi/vendredi commencer les filtres
+conseil : utiliser fetch api, template litterals( ok commencé)*/
