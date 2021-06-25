@@ -307,10 +307,17 @@ button{/*rectangle 2*/
 /* .dropdown-open */
 .dropdown-open{
 position: absolute;
-width: 170px;
-height: 69px;
-left: 175px;
-top: 453px;
+width: 170px;button{/*rectangle 2*/
+  height: 59px;
+  width: 170px;
+  border-radius: 5px;
+  color:white;
+  margin-left: 38%;   
+  border-radius: 5px;
+  background: #901C1C;
+  object-position: center;
+  margin-top: 15px;    
+}
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /* main */
@@ -367,23 +374,13 @@ color: #000000;
         border: 1px solid #ccc;
         float: left;
         width: 180px;
+        
       }
       
   div.gallery:hover {
         border: 1px solid #777;
       }
-  /*    
-  .thumb-img{/*image sans titre et likes*       
-        width: 335px;
-        height: 190px;    
-         }
-  .thumb-imgfull{
-      height: 351px;
-      width: 350px;
-      left: 550px;
-      top: 581px;  
-     }      
-*/
+  
     .tag {/*.photographer_cathegories #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events buttons*/
     margin-right:.25rem;
     border-radius: 9999px;
@@ -405,5 +402,30 @@ color: #000000;
     color: #911C1C;
   } 
   
+  #conractButton {/*rectangle 2*/
+    display: flex;
+    height: 25px;
+    width: 170px;
+    border-radius: 5px;
+    color:white;
+    margin-left: 38%;   
+    border-radius: 5px;
+    background: #901C1C;
+    object-position: center;
+    margin-top: 15px; 
+    object-position: center bottom;   
+  }
+  .thumb-img{
+  height: 190px;
+  width: 335px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  }
+
+  .thumb-imgfull{
+    width: 335px;
+    height:208px;
+  }
  
 }
