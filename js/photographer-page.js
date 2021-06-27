@@ -6,6 +6,12 @@ fetch("../../FishEyeData.json")
     let photograph = data.photographers.find(p => p.id == id);/*condition pour identifier le photographe*/
     let photographerElement = document.querySelector("#photograph-header");
     photographerElement.innerHTML = photograph.displayDetail();
+    let listMedia = data.medias.filter(media => media.photographerId==id);
+    let gallery = document.querySelector(".gallery")
+    for(let media of listMedia){
+    let mediaObject= new MediaFactory(media);
+     gallery.innerHTML+= mediaObject.display();
+    }
 })
 
 /*

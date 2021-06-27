@@ -43,7 +43,7 @@ media = new Media(m_id, m_p_id, m_image, m_video, m_title, m_tags, m_likes, m_da
  // Ajout du média dans la liste des médias
  mediaList.push(media);
 }
-// Mise à jour de l'instance Medias avec le liste des média
+// Mise à jour de l'instance Medias avec la liste des média
 medias.setMedias(mediaList);
 // console.log(medias.constructor.name);
 

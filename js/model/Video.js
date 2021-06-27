@@ -5,7 +5,7 @@ class Video{
     display(){ 
      return `<div class ="video">
       <video controls poster ="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/${this.video}"  aria-label="${this.video}" width="650px">
-        <source src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/${this.video}" alt= "${this.video}">
+        <source src="image/FishEyes_Photos/Sample_Photos/Mimi_Keel/${this.video}" alt= "${this.generateTitle()}">
            <div class="caption">
                 <div class="title">${this.generateTitle()}</div>
            </div> 
