@@ -29,28 +29,32 @@
   top: 5px;
   font-family: inherit;
   line-height: inherit;
-}
-  
-  #logo{
-  position:absolute;
-  height: 60px;
+} 
+#logo{
+position:absolute;
+height: 60px;
 width: 250px;
-left: 20px;
-top: 40px;
-border-radius: 0px;
+top: 35px;
 margin-top: -25px;
-  }    
+  }   
+.photographerCard{
+    margin:20px;
+  } 
  /* .photograph-header */
  #photograph-header{
-  margin-top:-2%;
   object-position:center top;    
   height: 313px;
   width: 1240px;
   text-align: left;
   position: absolute;   
-  top: 131px;
+  top: 100px;
   background: #FAFAFA;
   margin-left: 40px;
+  order:1;
+}
+.container{
+  margin-top: 27%;
+  display:flex;
 }
 #form-textarea {
 justify-content: start;
@@ -68,36 +72,45 @@ border-radius: 5px;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.flex-grow {
-  flex-grow: 1;
-}
-.title {
-  display: flex;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  --tw-text-opacity: 1;
-  color: rgba(82,82,82,var(--tw-text-opacity));
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  bottom: 20px;
-  align-content: flex-end;
-}
-
 .gallery{
-  display:flex;
-  flex-direction: column;
-  margin-top: 8%;
+  display:grid;
+  grid-template-columns:350px 350px 350px;
+  grid-template-rows:300px 300px 300px;
+  margin-top: 6%;
+  align-items: stretch;
   height: 1003.5px;
   width: 1413.5px;
+  column-gap: 2em;
+  justify-content: space-around;
+}
+  /*
   left: 11px;
   top: 7px;
   display: flex;
   justify-content: stretch;
   margin-bottom: 30px;
   flex-wrap: wrap;
-}
-
+}*/
+.tag {/*.photographer_cathegories #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events buttons*/
+  margin-right:.25rem;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgba(209,213,219,var(--tw-border-opacity));
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgba(144,28,28,var(--tw-text-opacity));
+  transition-duration: .2s;
+  color: #911C1C;
+} 
 .ListA .ListB{
             display: flex;
             justify-content: space-between; 
@@ -119,7 +132,7 @@ font-weight: normal;
 font-size: 24px;
 line-height: 31px;
 color: #911C1C;
-}
+}*/
 /*
 aside{
     justify-content: right;
@@ -129,13 +142,16 @@ aside{
     top: -50px;
     object-position: center;
 }
-/* .likes */
+/* .likes coeur+chiffre bas image*/
 .likes{
 position: absolute;
 left: 87.25%;
 right: 0%;
 top: 88.32%;
 bottom: 2.85%;
+width: 39,5px;
+height:auto;
+color:#901C1C;
 }
 /* price */
 .prix{
@@ -167,7 +183,7 @@ margin-top: -245px;
  height: 52%;
  object-fit: cover; 
  position: static;
-}/*
+} /*
 p{
   margin-top: 420px;
   margin-left: 15px;
@@ -201,7 +217,7 @@ font-size: 24px;
 color: #901C1C;
 margin-top: 50px;
 }
-blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+h1, h2, h3, h4, h5, h6, hr, p, {
   margin: 0;
 }
 blockquote {
@@ -210,8 +226,6 @@ blockquote {
   width: 348px;
   top: 133px;
   font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
@@ -229,22 +243,17 @@ margin-top: 50px;
 }
 
 .thumb-imgfull{
-  height: 20rem;
-  width: 100%;
-  left: 100px;
-  top: 547px; 
-  position: absolute;
-left: 100px;
-top: 547px; 
-cursor:pointer;     
+  height: 351rem;
+  border-radius: .345rem;    
 }
-.thumb-img{/*image sans titre et likes*/       
-  height: 300px;
-width: 350px;
-border-radius: 5px;
-  object-fit: cover;
-  border-radius: .345rem; 
-    
+.thumb-img{
+height:20rem;
+width: 100%;
+object-fit: cover;
+}
+video{
+  object-fit: contain;
+  height:20rem;
 }
  img,video{
    max-width: 100%;
@@ -258,37 +267,51 @@ img{
   border-style: solid;
 }  
 div.title {
-       height: 31px;
-       width: 292px;
-       left: 0px;
-       top: 310px;   
-       padding: 15px;
-       text-align: center;
-}
-.fa fa-heart{/*coeur */
-        height: 18.350000381469727px;
-        width: 39.5px;
-        left: 1.75px;
-        top: 3px;
+        flex-grow: 1;
+        display: flex;
+        font-size: 1.125rem;
+        line-height: 1.75rem;aside
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        bottom: 20px;
+        align-content: flex-end;
+        color: #901C1C;
+        bottom:0;
+        left: 0;
+        position: absolute;
+        width: 292px;
+        height:31px;
+        font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
 }
 
-#likesAndPrice{/*likes et prix button*/
-height: 89px;
-width: 376px;
- background: #DB8876;
+.fa fa-heart{/*coeur */
+        height: 18.35px;
+        width: 17.5px;
+        left: 1.75px;aside
+}
+
+#likesAndPrice{/*likes et prix button*/  
+height: 59px;
+width: 176px;
+background: #DB8876;
 color:black;
 border-radius: 5px;
 position:fixed;
 text-align: center;
-}
+right:0 bottom;
+display:inline-block;
 
+}
 button{/*rectangle 2*/
   height: 59px;
-  width: 170px;
+  width: 180px;
   border-radius: 5px;
-  color:white;
-  margin-left: 38%;   
-  border-radius: 5px;
+  color:white;aside
   background: #901C1C;
   object-position: center;
   margin-top: 15px;    
@@ -305,11 +328,11 @@ button{/*rectangle 2*/
     display: none;
     position: absolute;
     background: #DB8876;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
+      margin-top:2%;
+      object-position: bottom;    
+      height: 313px;
+      width: 1240px;
+}        
 .dropdown-select{
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }  
@@ -317,7 +340,7 @@ button{/*rectangle 2*/
     display: block;
   }
 /*Le css suivant est utilisé pour la flèche déroulante.*/
-.arrow {
+.arrow{
     position: relative;
     height: 15px;
     width: 15px;
@@ -330,17 +353,17 @@ button{/*rectangle 2*/
     height: 100%;
     transition: all 0.5s;
 }
-.arrow::before {
+.arrow::before{
     left: -5px;
     transform: rotate(45deg);
     background-color: #394a6d;
 }
-.arrow::after {
+.arrow::after{
     left: 5px;
     transform: rotate(-45deg);
     background-color: #394a6d;
 }
-.open .arrow::before {
+.open .arrow::before{
     left: -5px;
     transform: rotate(-45deg);
 }
@@ -351,7 +374,9 @@ button{/*rectangle 2*/
 /* .dropdown-open */
 .dropdown-open{
 position: absolute;
-width: 170px;button{/*rectangle 2*/
+width: 170px;
+}
+button{/*rectangle 2*/
   height: 59px;
   width: 170px;
   border-radius: 5px;
@@ -361,8 +386,6 @@ width: 170px;button{/*rectangle 2*/
   background: #901C1C;
   object-position: center;
   margin-top: 15px;    
-}
-
 }
 /* main */
 main{
@@ -387,45 +410,77 @@ color: #000000;
     width: 100%;
     padding: 0 16px;
   }
-  
   .main {
     flex-direction: column;
     width: 100%;
-  }
-  
-  .gallery {
+  }  
+  div.gallery {
     flex-basis: 100%;
     margin-right: 0;
     margin-top: 20px;
     order: 2;
-  }
-  
+  }  
 }
-/******************************* smartphone only ****************************** */
+/******************************* smartphone only *******************************/
 @media (max-width: 766px) {
     /* .logo */
     #logo{
       height: 50px;
       width: 200px;
       left: 100px;
-      top: -2px; 
+      top: 2%; 
     justify-content: flex-start;
     position: absolute;
-    }    
-  
-  div.gallery {
+} 
+/*
+#photograph-header{
+      margin-top:20%;
+      object-position: bottom;    
+      height: 313px;
+      width: 1240px;
+      align-items: center baseline; 
+}*/
+.container{
+  display:grid;
+  flex-direction: column;
+}
+h1{
+height: 47px;
+width: 202px;
+left: 20px;
+top: 107px;
+}
+h4{
+  height: 17px;
+width: 138px;
+left: 20px;
+top: 151px;
+}
+aside img #MimiKeel{/*section image dans index.html*/
+display:flex;
+object-position: left;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+}
+blockquote{
+  height: 17px;
+  width: 348px;
+  left: 20px;
+  top: 172px;  
+}
+div.gallery {
         margin: 5px;
         border: 1px solid #ccc;
         float: left;
         width: 180px;
-        
+        order: 2;
       }
-      
-  div.gallery:hover {
+ div.gallery:hover {
         border: 1px solid #777;
       }
   
-    .tag {/*.photographer_cathegories #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events buttons*/
+.tag {/*.photographer_cathegories #Portrait #Art #Fashion #Architecture #Travel #Sport #Animals #Events buttons*/
     margin-right:.25rem;
     border-radius: 9999px;
     border-width: 1px;
@@ -444,6 +499,8 @@ color: #000000;
     color: rgba(144,28,28,var(--tw-text-opacity));
     transition-duration: .2s;
     color: #911C1C;
+    width: 82px;
+    height: 25px;
   } 
   
   #conractButton {/*rectangle 2*/
@@ -459,17 +516,30 @@ color: #000000;
     margin-top: 15px; 
     object-position: center bottom;   
   }
-  .thumb-img{
-  height: 190px;
-  width: 335px;
-  left: 0px;
-  top: 0px;
-  border-radius: 5px;
-  }
-
+  
   .thumb-imgfull{
     width: 335px;
     height:208px;
-  }
- 
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:100;
+    }
+      
+.thumb-image img {
+  position:relative;
+  width:100%;    
+  height: 190px;
+   margin  
+    }
+
+  .title {
+      display:inline-block;
+      height: 18px;
+      position:absolute;
+      width:75px;
+      z-index:10;
+      top:500px;
+      object-position: bottom;
+    }
 }

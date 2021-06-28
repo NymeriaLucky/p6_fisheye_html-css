@@ -34,7 +34,11 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+#logo{
+padding: 4px;
+height:55px;
+width: 215px;
+}
 blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
   margin: 0;
 }
@@ -119,11 +123,11 @@ width: 100%;
 left: 21px;
 top: 220px;
 text-align: center;
-color:#911C1C;
 font-size: 2.25rem;
 line-height: 2.5rem;
 --tw-text-opacity: 1;
 color: rgba(211,87,60,var(--tw-text-opacity));
+padding:2px;
 }
  
 .photographerList{
@@ -138,14 +142,31 @@ color: rgba(211,87,60,var(--tw-text-opacity));
   flex-wrap: wrap;
   justify-content: space-around;
 } 
-
+.List1{
+  margin-bottom: 15%;
+  flex-direction:row;
+  padding:15px;
+}
+.List2{
+  margin-bottom: 5%;
+  flex-direction:row;
+  padding:15px;
+  justify-content:space-between;
+  flex-wrap: nowrap;
+}
 .List1, .List2{
   display: flex;
   justify-content: space-between; 
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 10px;
-}   
+  margin-bottom: 20px;
+} 
+#nav-bar{
+  top:42%;
+  text-align: center;
+  left:90%;
+}  
 /*button*/
 .dropdown {
   position: relative;
@@ -185,8 +206,8 @@ color: rgba(211,87,60,var(--tw-text-opacity));
     transition-duration: .2s;
     color: #911C1C;
   }
-  .tagsbox{ /*tags à séparer!*/
-  justify-content: space-between;
+  .tagsbox{ /*tags à séparer!tags de l'article*/
+  justify-content: space-around;
   --tw-border-opacity: 1;
   border-color: rgba(209,213,219,var(--tw-border-opacity));
   padding-left: .5rem;
@@ -291,31 +312,17 @@ padding: 5px;
 display: flex;
 flex-wrap: nowrap;
 position: relative;
-width: 100%;
+
 height: auto;
 position: relative;
-height: auto;
-text-align: center;
 font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
 font-size: 12px;
 line-height: 15px;
-/* identical to box height */
 text-align: center;
 color: #757575;
 justify-content: space-around;
 }
-/* Rectangle 245 tagboxs individuels de la carte*/
-.tagList{
-position: absolute;
-width: 263px;
-height: 30px;
-left: 72px;
-top: 518px;
-border: 2px solid #95FFF9;
-box-sizing: border-box;
-}/*
+/*
 PhotographerTagsBox{ /* Rectangle 256 tags individuel de la carte
 position: absolute;
 width: 53px;
@@ -363,7 +370,7 @@ color: #D3573C;
 }
 /* Tracy Galindo */
 #TracyGalindo{
-position: absolute;
+position: absolute;tagsbox
 left: -7%;
 right: -7.5%;
 top: 70.97%;
@@ -424,7 +431,6 @@ line-height: 47px;
 text-align: center;
 color: #D3573C;
 }
-
 /* ****************************** smartphone, tablet and screen until 1024px ****************************** */
 @media all and (max-width: 1024px) {
   body{
@@ -452,33 +458,69 @@ color: #D3573C;
 @media (max-width: 766px) {
 /* .logo */
 #logo{
-  height: 50px;
-  width: 200px;
-  left: 100px;
-  top: 42px; 
+  height: 55px;
+  width: 210px;
+  left: 0px;
+  top: 5px; 
 justify-content: flex-start;
 position: absolute;
+flex-basis:auto;
 }    
 
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
 }
+h1{
+  display:flex;
+  text-align: right;
+  top:-5%;
+  left:23%;
+}
+
+section h2{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 300px;
+  text-align: center;
+  margin-right: 30%;
+  margin-left: -5%;
+}/*
 #nav-bar{
   height: 49px;
   width: 553px;
  text-align: center;
- align-content: center;   
-}
-#tags-nav{ /* Rectangle 246 photographerstagBox*/
-  height: 16px;
-  width: 431px;
+ align-content: center;
+ left:-20%;   
+}*/
+#nav-bar{ /* Rectangle 246 tags-box*/
+  height: 50px;
+  width: 285px;
+  top:-20% center;
   text-align: center;
   display: flex;
-  box-sizing: content-box; 
-  margin:4px;  
+  box-sizing: border-box; 
+  margin:4px; 
+}
+.photographer-profile{
+top:359px;
+display:flex;
+width: 100%;
+padding: 5px;
 } 
-.photographer-profile-{
+.prix{
+object-fit: cover;
+top:80%;
+margin-left:-165px;
+}
+.tagsbox{
+  align-content: flex-start;
+  margin-right:79%;
+  object-position: center;
+  padding-bottom: 40px;
+}
+/*
+.photographer-profile{
   margin-top: 120px;
   height: 358px;
   width: 30%;
@@ -494,8 +536,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   border-radius: 15px;
   margin-bottom: 20px;
-  padding: 1%;
-  
-    }
-  
+  padding: 1%;*/
+    }  
 }
