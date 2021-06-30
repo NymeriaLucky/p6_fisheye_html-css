@@ -72,15 +72,14 @@ border-radius: 5px;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.gallery{
+.container .gallery{
   display:flex;
-  grid-template-columns:350px 350px 350px;
-  grid-template-rows:300px 300px 300px;
+  flex-wrap: wrap;
   margin-top: 6%;
   align-items: stretch;
   height: 1003.5px;
   width: 1413.5px;
-  column-gap: 2em;
+
   justify-content: space-around;
 }
   /*
@@ -467,6 +466,9 @@ blockquote{
   top: 172px;  
 }
 div.gallery {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         margin: 5px;
         border: 1px solid #ccc;
         float: left;

@@ -104,7 +104,6 @@ section{ /*rectangle 243*zone focus*/
   box-sizing: content-box;
   object-position: 50% 50%;
   padding:33px;
-
 }
 section img{
     border-radius: 50%;
@@ -142,17 +141,22 @@ color: rgba(211,87,60,var(--tw-text-opacity));
 padding-top:16px;
 } 
 .photographerList{
-  padding: 15px;
-  margin: 0 15px 0 0;
-  border-radius: 15px;
-  width: 100%;
-  order: 1;
-  flex-grow: 1;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display:flex;
   align-items: center;
-} 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.photographer-profile{
+  margin-top: 125px;
+  height: 358px;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 20px; 
+  }  
+  a{
+  text-decoration: none;
+  }
 .List1{
   margin-bottom: 15%;
   flex-direction:row;
@@ -183,18 +187,12 @@ photographer-profile{
   height: 358px;
   width: 30%;
   left: -162px;
-  align-items: center;
-  flex-basis: auto;
-  height: 300px;
-  display: flex;
-  justify-content: stretch;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: #fff;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  padding: 5%;
-    }    
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: middle;
+    flex-wrap: wrap;
+  }      
 /*button*/
 .dropdown {
   position: relative;
@@ -218,10 +216,7 @@ photographer-profile{
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(209,213,219,var(--tw-border-opacity));
-    padding-left: .5rem;
-    padding-right: .5rem;
-    padding-top: .25rem;
+    border-color: rgba(209,213,219,var(--tw));
     padding-bottom: .25rem;
     font-size: .875rem;
     line-height: 1.25rem;
@@ -322,7 +317,7 @@ vertical-align: middle;
   } 
 }
 /* ****************************** smartphone only ****************************** */
-@media (max-width: 766px) {
+@media screen and (max-width: 766px) {
 /* .logo */
 #logo{
   height: 55px;
@@ -373,7 +368,6 @@ padding: 5px;
 span.prix{
 object-fit: cover;
 top:70%;
-
 vertical-align: middle;
 text-align: center;
 }
@@ -392,29 +386,8 @@ div.tagsbox{
 width: 263px;
 text-align: center;
 }
-.photographerList{
-  align-items: center;
+.photographerList{ 
   flex-direction: column;
-  vertical-align: middle;
-  margin-left: 5%;
 }
-.photographer-profile{
-  vertical-align: middle;
-  margin-top: 125px;
-  margin-left: -5%;
-  height: 358px;
-  width: 30%;
-  left: -162px;
-  align-items: center;
-  flex-basis: auto;
-  height: 355px;
-  display: flex;
-  justify-content: stretch;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: #fff;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  padding: 5%;
-    }  
+
 }
