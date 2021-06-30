@@ -73,7 +73,7 @@ border-radius: 5px;
   line-height: 1.75rem;
 }
 .gallery{
-  display:grid;
+  display:flex;
   grid-template-columns:350px 350px 350px;
   grid-template-rows:300px 300px 300px;
   margin-top: 6%;
@@ -168,8 +168,7 @@ left: -162px;
 top: -50px;
 }
 
-aside img/*section image dans index.html*/
-{
+aside img{/*section image dans index.html*/
 display:flex;
  object-position: center;
  border-radius: 50%;
@@ -190,10 +189,10 @@ p{
 }*/
  /*Mimi Keel */
 h1{
-  height: 83px;
-  width: 282px;
-  position: absolute;
-  line-height: 83px;
+height: 83px;
+width: 282px;
+position: absolute;
+line-height: 83px;
 right: 74%;
 font-size: 64px;
 bottom: 58.5%;
@@ -259,7 +258,7 @@ video{
    max-width: 100%;
    height: auto;
  }
- audio, canvas, embed, iframe, img, object, svg, video {
+ audio, canvas, embed, iframe, img, object, svg, video{
   display: block;
   vertical-align: middle;
 }
@@ -267,7 +266,7 @@ img{
   border-style: solid;
 }  
 div.title {
-        flex-grow: 1;
+      flex-grow: 1;
         display: flex;
         font-size: 1.125rem;
         line-height: 1.75rem;aside
@@ -289,10 +288,10 @@ line-height: 31px;
 letter-spacing: 0em;
 }
 
-.fa fa-heart{/*coeur */
-        height: 18.35px;
-        width: 17.5px;
-        left: 1.75px;aside
+i.fa fa-heart{/*coeur */
+      height: 18.35px;
+      width: 17.5px;
+      left: 1.75px;aside
 }
 
 #likesAndPrice{/*likes et prix button*/  
@@ -305,7 +304,6 @@ position:fixed;
 text-align: center;
 right:0 bottom;
 display:inline-block;
-
 }
 button{/*rectangle 2*/
   height: 59px;
@@ -421,10 +419,9 @@ color: #000000;
     order: 2;
   }  
 }
-/******************************* smartphone only *******************************/
-@media (max-width: 766px) {
-    /* .logo */
-    #logo{
+/******************************* smartphone only **********************************************************/
+@media (max-width: 766px){/* .logo */
+  #logo{
       height: 50px;
       width: 200px;
       left: 100px;
@@ -533,7 +530,7 @@ div.gallery {
    margin  
     }
 
-  .title {
+.title {
       display:inline-block;
       height: 18px;
       position:absolute;

@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {/* Index */
   display:flex;
   position: relative;
@@ -13,7 +12,6 @@ html {/* Index */
   line-height: 1.5;
   tab-size: 4;
 }
-
 body{/* Vector 1*/ 
 display:flex;
 position: absolute;
@@ -36,13 +34,12 @@ header {
 }
 #logo{
 padding: 4px;
-height:55px;
-width: 215px;
+height:64px;
+width: 225px;
 }
 blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
   margin: 0;
 }
-
 p {
 text-align: center;
 flex-wrap: wrap;
@@ -66,9 +63,18 @@ h1 {
   line-height: 47px;
   font-size:1.2em;
   align-content: right;
-  margin-top: 27px;  
+  margin-top: 37px;  
 }
-
+h4{
+  line-height: 16,93px;
+  font-size: 13px;
+font-style: normal;
+  margin-top: -52px;
+  color: #D3573C;
+  text-align: center;
+  font-family: DM Sans;
+  flex-basis:auto;
+}
 main{
 flex-direction: column;
 margin-top: 8%;
@@ -80,7 +86,6 @@ display: flex;
 justify-content: stretch;
 margin-bottom: 30px;
 }
-
 ul{
   display: flex;
   margin:0;
@@ -92,12 +97,13 @@ ul{
   align-items:stretch;   
 }
 section{ /*rectangle 243*zone focus*/
-  height: 277px;
-  width: 265px;
+  height: 300px;
+  width: 305px;
   left: 72px;
   top: 192px;
   box-sizing: content-box;
   object-position: 50% 50%;
+  padding:33px;
 
 }
 section img{
@@ -113,8 +119,14 @@ section img{
     object-fit: cover;
     object-position:top center;      
 }
-
 section h2{
+font-family: DM Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: center;
 flex-wrap: nowrap;
 flex-direction: row;
 align-items: center baseline;  
@@ -127,11 +139,9 @@ font-size: 2.25rem;
 line-height: 2.5rem;
 --tw-text-opacity: 1;
 color: rgba(211,87,60,var(--tw-text-opacity));
-padding:2px;
-}
- 
+padding-top:16px;
+} 
 .photographerList{
-  display : flex;
   padding: 15px;
   margin: 0 15px 0 0;
   border-radius: 15px;
@@ -141,6 +151,7 @@ padding:2px;
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 } 
 .List1{
   margin-bottom: 15%;
@@ -166,14 +177,30 @@ padding:2px;
   top:42%;
   text-align: center;
   left:90%;
-}  
+}
+photographer-profile{
+  margin-top: 125px;
+  height: 358px;
+  width: 30%;
+  left: -162px;
+  align-items: center;
+  flex-basis: auto;
+  height: 300px;
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 5%;
+    }    
 /*button*/
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   background: #DB8876;
@@ -182,7 +209,6 @@ padding:2px;
   padding: 12px 16px;
   z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -205,26 +231,7 @@ padding:2px;
     color: rgba(144,28,28,var(--tw-text-opacity));
     transition-duration: .2s;
     color: #911C1C;
-  }
-  .tagsbox{ /*tags à séparer!tags de l'article*/
-  justify-content: space-around;
-  --tw-border-opacity: 1;
-  border-color: rgba(209,213,219,var(--tw-border-opacity));
-  padding-left: .5rem;
-  padding-right: .5rem;
-  padding-top: .25rem;
-  padding-bottom: .25rem;
-  font-size: .875rem;
-  align-items: stretch;
-  font-weight: 500;
-  line-height: 2rem;
-  --tw-text-opacity: 1;
-  color: rgba(144,28,28,var(--tw-text-opacity));
-  transition-duration: .2s;
-  color: #911C1C;
-  text-align: center;
-}
-
+  }  
 .scroll{    
     margin-left: 50%;
     position: absolute; 
@@ -242,56 +249,22 @@ padding-top: 6px;
 color:solid black;
 opacity:0.33;
 }
-
-a {
+a{
   color: inherit;
   text-decoration: inherit;
 }
-
-img, video {
+img, video{
   max-width: 100%;
   height: auto;
-}
- 
+} 
 audio, canvas, embed, iframe, img, object, svg, video {
   display: block;
   vertical-align: middle;
 }
-
 main{
 box-sizing: border-box;
 }
-/* Mimi Keel */
-#MimiKeel{
-position: absolute;
-left: 10.5%;
-right: 10%;
-top: 70.97%;
-bottom: 13.87%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
-text-align: center;
-color: #D3573C;
-}
-/* London, UK localisation 1 et 2*/
-p {
-font-family: DM Sans;
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: center;
-letter-spacing: 0em;
-flex-wrap: nowrap;  
-color: #D3573C;
-}
-
-blockquote {/* Voir le beau dans le quotidien */
+blockquote{/* Voir le beau dans le quotidien */
 display: flex;
 flex-wrap: nowrap;
 width: 100%;
@@ -311,125 +284,22 @@ padding: 5px;
 .prix {
 display: flex;
 flex-wrap: nowrap;
-position: relative;
-
-height: auto;
-position: relative;
+margin-left: 42%;
+position:relative;
 font-family: DM Sans;
 font-size: 12px;
 line-height: 15px;
 text-align: center;
 color: #757575;
-justify-content: space-around;
+align-items: center;
 }
-/*
-PhotographerTagsBox{ /* Rectangle 256 tags individuel de la carte
-position: absolute;
-width: 53px;
-height: 21px;
-left: 205px;
-top: 523px;
-border: 0.5px solid #C4C4C4;
-box-sizing: border-box;
-border-radius: 11px;
-}
-*/
-h5{
-color: #911C1C;
-}
-/* Mimi Keel */
-#MimiKeel{
-position: absolute;
-left: 10.5%;
-right: 10%;
-top: 70.97%;
-bottom: 13.87%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
+
+.tagsbox{ /* Rectangle 256 tags individuel de la carte*/
+height: 30px;
+width: 350px;
+top: 553px;
 text-align: center;
-color: #D3573C;
-}
-#Ellie-RoseWilkens{
-position: absolute;
-left: -25%;
-right: -25.5%;
-top: 70.97%;
-bottom: 13.87%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
-text-align: center;
-color: #D3573C;
-}
-/* Tracy Galindo */
-#TracyGalindo{
-position: absolute;tagsbox
-left: -7%;
-right: -7.5%;
-top: 70.97%;
-bottom: 13.87%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
-text-align: center;
-color: #D3573C;
-}
-#NabeelBradford{
-position: absolute;
-left: -17.5%;
-right: -17.5%;
-top: 70.97%;
-bottom: 13.87%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
-text-align: center;
-color: #D3573C;
-}
-/* Rhode Dubois */
-#RhodeDubois{
-position: absolute;
-left: -8%;
-right: -8.5%;
-top: 70.97%;
-bottom: 13.87%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
-text-align: center;
-color: #D3573C;
-}
-/* Marcel Nikolic */
-#MarcelNikolic{
-position: absolute;
-left: -7.5%;
-right: -7.5%;
-top: 70.97%;
-bottom: 13.87%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
-text-align: center;
-color: #D3573C;
+vertical-align: middle;
 }
 /* ****************************** smartphone, tablet and screen until 1024px ****************************** */
 @media all and (max-width: 1024px) {
@@ -440,19 +310,16 @@ color: #D3573C;
     width: 100%;
     padding: 0 16px;
   }
-  
   .main {
     flex-direction: column;
     width: 100%;
-  }
-  
+  }  
   .photographerList {
     flex-basis: 100%;
     margin-right: 0;
     margin-top: 20px;
     order: 2;
-  }
-  
+  } 
 }
 /* ****************************** smartphone only ****************************** */
 @media (max-width: 766px) {
@@ -466,7 +333,6 @@ justify-content: flex-start;
 position: absolute;
 flex-basis:auto;
 }    
-
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
@@ -477,15 +343,7 @@ h1{
   top:-5%;
   left:23%;
 }
-
-section h2{
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 300px;
-  text-align: center;
-  margin-right: 30%;
-  margin-left: -5%;
-}/*
+/*
 #nav-bar{
   height: 49px;
   width: 553px;
@@ -502,33 +360,54 @@ section h2{
   box-sizing: border-box; 
   margin:4px; 
 }
+h4{
+  text-align: center;
+  margin-bottom: 40px;   
+}/*
 .photographer-profile{
 top:359px;
 display:flex;
-width: 100%;
+width: 30%;
 padding: 5px;
-} 
-.prix{
+} */
+span.prix{
 object-fit: cover;
-top:80%;
-margin-left:-165px;
+top:70%;
+
+vertical-align: middle;
+text-align: center;
 }
-.tagsbox{
-  align-content: flex-start;
-  margin-right:79%;
-  object-position: center;
-  padding-bottom: 40px;
+ul{
+  display: flex;
+  margin:0;
+  padding:0;
+  align-items: center;
+  list-style: none; 
+  margin-left: 405px; 
+ top:202px;
+  align-items:stretch;   
 }
-/*
+div.tagsbox{
+  height:30px;
+width: 263px;
+text-align: center;
+}
+.photographerList{
+  align-items: center;
+  flex-direction: column;
+  vertical-align: middle;
+  margin-left: 5%;
+}
 .photographer-profile{
-  margin-top: 120px;
+  vertical-align: middle;
+  margin-top: 125px;
+  margin-left: -5%;
   height: 358px;
   width: 30%;
   left: -162px;
-  top: -50px;
   align-items: center;
   flex-basis: auto;
-  height: 300px;
+  height: 355px;
   display: flex;
   justify-content: stretch;
   flex-wrap: wrap;
@@ -536,6 +415,6 @@ margin-left:-165px;
   background-color: #fff;
   border-radius: 15px;
   margin-bottom: 20px;
-  padding: 1%;*/
+  padding: 5%;
     }  
 }
